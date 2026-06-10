@@ -1,0 +1,111 @@
+@prefix : <https://omeka.org/s/vocabs/sample-data#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Resource classes
+
+:Empire a rdfs:Class ;
+    rdfs:label "Empire"@en ;
+    rdfs:comment "A large political entity ruling many peoples."@en .
+
+:Kingdom a rdfs:Class ;
+    rdfs:label "Kingdom"@en ;
+    rdfs:comment "A state ruled by a monarch."@en .
+
+:City-state a rdfs:Class ;
+    rdfs:label "City-state"@en ;
+    rdfs:comment "An independent city and its surrounding territory."@en .
+
+:Dynasty a rdfs:Class ;
+    rdfs:label "Dynasty"@en ;
+    rdfs:comment "A sequence of rulers from the same family or group."@en .
+
+:Confederation a rdfs:Class ;
+    rdfs:label "Confederation"@en ;
+    rdfs:comment "A loose union of autonomous political entities."@en .
+
+:CulturalPeriod a rdfs:Class ;
+    rdfs:label "Cultural Period"@en ;
+    rdfs:comment "A defined era characterized by shared cultural traits."@en .
+
+:Republic a rdfs:Class ;
+    rdfs:label "Republic"@en ;
+    rdfs:comment "A state in which power is held by the people or representatives."@en .
+
+:Painting a rdfs:Class ;
+    rdfs:label "Painting"@en ;
+    rdfs:comment "A work executed in paint on a panel, canvas, or wall."@en .
+
+:Sculpture a rdfs:Class ;
+    rdfs:label "Sculpture"@en ;
+    rdfs:comment "A three-dimensional work in stone, bronze, marble, or other material."@en .
+
+:WorkOnPaper a rdfs:Class ;
+    rdfs:label "Work on Paper"@en ;
+    rdfs:comment "A work on paper including drawings, engravings, etchings, and woodblock prints."@en .
+
+:Manuscript a rdfs:Class ;
+    rdfs:label "Manuscript"@en ;
+    rdfs:comment "A handwritten or early printed book or codex."@en .
+
+:Letter a rdfs:Class ;
+    rdfs:label "Letter"@en ;
+    rdfs:comment "A written message addressed to a named recipient."@en .
+
+:Diary a rdfs:Class ;
+    rdfs:label "Diary"@en ;
+    rdfs:comment "A personal journal recording day-to-day events and reflections."@en .
+
+:Memorandum a rdfs:Class ;
+    rdfs:label "Memorandum"@en ;
+    rdfs:comment "An official written communication or internal record."@en .
+
+:Report a rdfs:Class ;
+    rdfs:label "Report"@en ;
+    rdfs:comment "A formal document presenting information, findings, or official records."@en .
+
+:Newspaper a rdfs:Class ;
+    rdfs:label "Newspaper"@en ;
+    rdfs:comment "A periodical publication containing news and features, typically with multi-column layout."@en .
+
+:Person a rdfs:Class ;
+    rdfs:label "Person"@en ;
+    rdfs:comment "A historical individual of cultural, scientific, or political significance."@en .
+
+# Properties
+
+:movement a rdf:Property ;
+    rdfs:label "Movement"@en ;
+    rdfs:comment "The art movement or stylistic period to which the work belongs."@en .
+
+:peakDate a rdf:Property ;
+    rdfs:label "Peak Date"@en ;
+    rdfs:comment "Date at which the civilization reached its peak influence or territorial extent."@en .
+
+:area a rdf:Property ;
+    rdfs:label "Area"@en ;
+    rdfs:comment "Estimated area at peak, in square kilometres."@en .
+
+:birthDate a rdf:Property ;
+    rdfs:label "Birth Date"@en ;
+    rdfs:comment "The date on which the person was born."@en .
+
+:deathDate a rdf:Property ;
+    rdfs:label "Death Date"@en ;
+    rdfs:comment "The date on which the person died."@en .
+
+:birthPlace a rdf:Property ;
+    rdfs:label "Birth Place"@en ;
+    rdfs:comment "The place where the person was born, given in historical context."@en .
+
+:deathPlace a rdf:Property ;
+    rdfs:label "Death Place"@en ;
+    rdfs:comment "The place where the person died, given in historical context."@en .
+
+:nationality a rdf:Property ;
+    rdfs:label "Nationality"@en ;
+    rdfs:comment "The cultural, ethnic, or national identity of the person."@en .
+
+:knownFor a rdf:Property ;
+    rdfs:label "Known For"@en ;
+    rdfs:comment "A brief phrase describing the person's most significant contribution or achievement."@en .

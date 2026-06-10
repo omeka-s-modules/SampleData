@@ -1,0 +1,12 @@
+<?php
+/**
+ * Copy this file to dev/config.php and fill in your values.
+ * dev/config.php is gitignored — do not commit it.
+ *
+ * Register an owner-only OAuth 2.0 consumer at:
+ * https://meta.wikimedia.org/wiki/Special:OAuthConsumerRegistration/propose
+ */
+return [
+    'wikidata_user_agent'   => 'YourAppName/1.0 (your@email.example)',
+    'wikidata_access_token' => 'your-jwt-access-token',
+];

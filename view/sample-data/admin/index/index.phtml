@@ -1,0 +1,76 @@
+<?php
+$this->headTitle('Sample Data');
+$this->headLink()->appendStylesheet($this->assetUrl('css/sample-data.css', 'SampleData'));
+echo $this->pageTitle('Sample Data');
+$csrf = new \Laminas\Form\Element\Csrf('sample_data_csrf');
+$csrfValue = $csrf->getValue();
+?>
+
+<div id="sample-data-datasets">
+<?php foreach ($datasets as $dataset): ?>
+<div class="sample-data-item">
+    <div class="sample-data-dataset">
+        <div class="sample-data-dataset-header">
+            <h2><?php echo $this->escapeHtml($dataset['label']); ?></h2>
+            <?php if ($dataset['pending_action']): ?>
+            <span class="sample-data-status in-progress">
+                <?php echo $dataset['pending_action'] === 'purge'
+                    ? $this->translate('Purging…')
+                    : $this->translate('Importing…'); ?>
+            </span>
+            <?php elseif ($dataset['job_failed']): ?>
+            <span class="sample-data-status failed">
+                <?php echo $this->translate('Job failed'); ?>
+            </span>
+            <?php elseif ($dataset['imported']): ?>
+            <span class="sample-data-status imported">
+                <?php echo $this->translate('Imported'); ?>
+            </span>
+            <?php else: ?>
+            <span class="sample-data-status not-imported">
+                <?php echo $this->translate('Not imported'); ?>
+            </span>
+            <?php endif; ?>
+        </div>
+
+        <p><?php echo $this->escapeHtml($dataset['description']); ?></p>
+
+        <p class="sample-data-meta">
+            <?php echo sprintf(
+                $this->translate('%d items &middot; %d item sets &middot; media included'),
+                $dataset['item_count'],
+                $dataset['set_count']
+            ); ?>
+        </p>
+
+        <?php if ($dataset['main_item_set_id']): ?>
+        <p><?php echo $this->translate('Browse:'); ?> <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/default', ['controller' => 'item', 'action' => 'browse'], ['query' => ['item_set_id' => $dataset['main_item_set_id']]])); ?>"><?php echo $this->translate('items'); ?></a> &middot; <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/default', ['controller' => 'item-set', 'action' => 'browse'], ['query' => ['id' => $dataset['item_set_ids']]])); ?>"><?php echo $this->translate('item sets'); ?></a></p>
+        <?php endif; ?>
+
+        <div class="sample-data-actions">
+            <?php if (!$dataset['pending_action']): ?>
+            <form method="POST" action="<?php echo $this->escapeHtmlAttr($this->url('admin/sample-data')); ?>">
+                <input type="hidden" name="csrf" value="<?php echo $this->escapeHtmlAttr($csrfValue); ?>">
+                <input type="hidden" name="dataset" value="<?php echo $this->escapeHtmlAttr($dataset['name']); ?>">
+                <input type="hidden" name="action" value="import">
+                <button type="submit" class="button"<?php if ($dataset['imported']): ?> onclick="return confirm('<?php echo $this->escapeJs($this->translate('This will delete all imported items and re-import from scratch. Continue?')); ?>')"<?php endif; ?>><?php echo $dataset['imported'] ? $this->translate('Re-import') : $this->translate('Import'); ?></button>
+            </form>
+            <?php if ($dataset['imported']): ?>
+            <form method="POST" action="<?php echo $this->escapeHtmlAttr($this->url('admin/sample-data')); ?>">
+                <input type="hidden" name="csrf" value="<?php echo $this->escapeHtmlAttr($csrfValue); ?>">
+                <input type="hidden" name="dataset" value="<?php echo $this->escapeHtmlAttr($dataset['name']); ?>">
+                <input type="hidden" name="action" value="purge">
+                <button type="submit" class="o-icon-delete button" onclick="return confirm('<?php echo $this->escapeJs($this->translate('This will delete all imported items. Continue?')); ?>')"><?php echo $this->translate('Purge'); ?></button>
+            </form>
+            <?php endif; ?>
+            <?php endif; ?>
+            <?php if ($dataset['pending_action'] || $dataset['job_failed']): ?>
+            <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/id', ['controller' => 'job', 'action' => 'show', 'id' => $dataset['pending_job_id']])); ?>" class="sample-data-view-log" target="_blank"><?php echo $this->translate('View job'); ?></a>
+            <span class="sample-data-view-log-sep">|</span>
+            <a href="<?php echo $this->escapeHtmlAttr($this->url('admin/id', ['controller' => 'job', 'action' => 'log', 'id' => $dataset['pending_job_id']])); ?>" class="sample-data-view-log" target="_blank"><?php echo $this->translate('Log'); ?></a>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+<?php endforeach; ?>
+</div>
