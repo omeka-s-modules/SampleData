@@ -31,7 +31,6 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         if ($this->getRequest()->isPost()) {
-            // Instantiated directly to validate the raw POST token without wiring up a full Laminas form stack.
             $csrf = new Csrf('sample_data_csrf');
             if (!$csrf->getCsrfValidator()->isValid($this->params()->fromPost('csrf', ''))) {
                 $this->messenger()->addError('Invalid or expired security token. Please try again.');
@@ -47,10 +46,9 @@ class IndexController extends AbstractActionController
 
             $args = ['dataset' => $dataset];
             if ($action === 'import') {
-                // force_canonical: the import job runs in a background process that fetches media over HTTP, so the URL must be absolute.
                 $args['media_base_url'] = sprintf(
-                    '%s/modules/SampleData/datasets/',
-                    rtrim($this->url()->fromRoute('top', [], ['force_canonical' => true]), '/')
+                    '%smodules/SampleData/datasets/',
+                    $this->url()->fromRoute('top', [], ['force_canonical' => true])
                 );
             }
 
@@ -69,48 +67,50 @@ class IndexController extends AbstractActionController
             return $this->redirect()->toRoute('admin/sample-data');
         }
 
-        $datasets = $this->datasets;
         $settings = $this->settings();
+        $datasets = [];
 
-        foreach ($datasets as $name => &$dataset) {
-            $dataset['name'] = $name;
+        foreach ($this->datasets as $name => $config) {
             $tracking = $settings->get("sample_data_imported_{$name}");
-            $dataset['imported'] = (bool) $tracking;
-            $dataset['main_item_set_id'] = $tracking['item_sets']['main'] ?? null;
-            $dataset['item_set_ids'] = $tracking ? array_values($tracking['item_sets']) : [];
-            $dataset['pending_action'] = null;
-            $dataset['job_failed'] = false;
+            $datasets[$name] = $config + [
+                'name'             => $name,
+                'imported'         => (bool) $tracking,
+                'main_item_set_id' => $tracking['item_sets']['main'] ?? null,
+                'item_set_ids'     => $tracking ? array_values($tracking['item_sets']) : [],
+                'pending_action'   => null,
+                'job_failed'       => false,
+            ];
 
             $pendingJob = $settings->get("sample_data_job_{$name}");
-            if ($pendingJob) {
-                $jobId = $pendingJob['job_id'];
-                // Once failed, skip re-querying — the error state persists until the user acts.
-                if (!empty($pendingJob['failed'])) {
-                    $dataset['job_failed'] = true;
-                    $dataset['pending_job_id'] = $jobId;
+            if (!$pendingJob) {
+                continue;
+            }
+            $jobId = $pendingJob['job_id'];
+            // Once failed, skip re-querying — the error state persists until the user acts.
+            if (!empty($pendingJob['failed'])) {
+                $datasets[$name]['job_failed'] = true;
+                $datasets[$name]['pending_job_id'] = $jobId;
+                continue;
+            }
+            try {
+                $job = $this->api()->read('jobs', $jobId)->getContent();
+                $status = $job->status();
+                if (in_array($status, ['starting', 'in_progress'])) {
+                    $datasets[$name]['pending_action'] = $pendingJob['action'];
+                    $datasets[$name]['pending_job_id'] = $jobId;
+                } elseif (in_array($status, ['error', 'stopped'])) {
+                    $datasets[$name]['job_failed'] = true;
+                    $datasets[$name]['pending_job_id'] = $jobId;
+                    $pendingJob['failed'] = true;
+                    $settings->set("sample_data_job_{$name}", $pendingJob);
                 } else {
-                    try {
-                        $job = $this->api()->read('jobs', $jobId)->getContent();
-                        $status = $job->status();
-                        if (in_array($status, ['starting', 'in_progress'])) {
-                            $dataset['pending_action'] = $pendingJob['action'];
-                            $dataset['pending_job_id'] = $jobId;
-                        } elseif (in_array($status, ['error', 'stopped'])) {
-                            $dataset['job_failed'] = true;
-                            $dataset['pending_job_id'] = $jobId;
-                            $pendingJob['failed'] = true;
-                            $settings->set("sample_data_job_{$name}", $pendingJob);
-                        } else {
-                            $settings->delete("sample_data_job_{$name}");
-                        }
-                    } catch (Exception $e) {
-                        // Job record unreadable (likely deleted); remove the stale tracking entry.
-                        $settings->delete("sample_data_job_{$name}");
-                    }
+                    $settings->delete("sample_data_job_{$name}");
                 }
+            } catch (Exception $e) {
+                // Job record unreadable (likely deleted); remove the stale tracking entry.
+                $settings->delete("sample_data_job_{$name}");
             }
         }
-        unset($dataset); // Break the foreach reference to avoid accidentally overwriting the last element.
 
         return new ViewModel(['datasets' => $datasets]);
     }
