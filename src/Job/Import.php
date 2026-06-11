@@ -205,11 +205,10 @@ class Import extends AbstractSampleDataJob
     private function buildValues(mixed $value, string $type): array
     {
         $values = is_array($value) ? $value : [$value];
-        return array_map(fn ($v) => [
-            'type' => $type,
-            'property_id' => 'auto', // ValueHydrator resolves the term to a property ID — avoids pre-resolving every property in the data.
-            '@value' => (string) $v,
-        ], $values);
+        return array_map(fn ($v) => $type === 'uri'
+            ? ['type' => 'uri', 'property_id' => 'auto', '@id' => (string) $v]
+            : ['type' => $type, 'property_id' => 'auto', '@value' => (string) $v], // ValueHydrator resolves the term to a property ID — avoids pre-resolving every property in the data.
+        $values);
     }
 
     /** @return array<string, string> e.g. ['sample-data:birthDate' => 'numeric:timestamp'] */

@@ -94,6 +94,13 @@ return [
                 ],
                 'alternate_label' => 'Related Civilizations',
             ],
+            [
+                'term' => 'dcterms:identifier',
+                'data_type' => [
+                    'uri',
+                ],
+                'alternate_label' => 'Wikidata',
+            ],
         ],
     ],
     'items' => [
@@ -109,6 +116,7 @@ return [
                 'zapotec-civilization',
                 'teotihuacan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q135364',
             'map_bounds' => '-96.6,16.2,-93.6,19.2',
             'map_coordinates' => [
                 -95.1,
@@ -142,6 +150,7 @@ return [
                 'teotihuacan',
                 'mixtec-civilization',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q844750',
             'map_bounds' => '-98.3,15.5,-95.3,18.5',
             'map_coordinates' => [
                 -96.8,
@@ -177,6 +186,7 @@ return [
                 'zapotec-civilization',
                 'tikal',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q172613',
             'map_bounds' => '-100.407319,18.092681,-97.192681,21.307319',
             'map_coordinates' => [
                 -98.8,
@@ -213,6 +223,7 @@ return [
                 'palenque',
                 'cop-n',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4964',
             'map_bounds' => '-91.997636,13.802364,-86.202364,19.597636',
             'map_coordinates' => [
                 -89.1,
@@ -246,6 +257,7 @@ return [
                 'aztec-triple-alliance',
                 'chich-n-itz',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q112266412',
             'map_bounds' => '-90.568556,18.731444,-86.631444,22.668556',
             'map_coordinates' => [
                 -88.6,
@@ -280,6 +292,7 @@ return [
                 'toltec-chichimec-state',
                 'chich-n-itz',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q17523945',
             'map_bounds' => '-101.573092,17.626908,-97.026908,22.173092',
             'map_coordinates' => [
                 -99.3,
@@ -320,6 +333,7 @@ return [
                 'spanish-empire',
                 'aztec-cultural-legacy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q794210',
             'map_bounds' => '-101.373092,17.126908,-96.826908,21.673092',
             'map_coordinates' => [
                 -99.1,
@@ -352,6 +366,7 @@ return [
                 'zapotec-civilization',
                 'aztec-triple-alliance',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q36363',
             'map_bounds' => '-99,16,-96,19',
             'map_coordinates' => [
                 -97.5,
@@ -383,6 +398,7 @@ return [
             'relations' => [
                 'aztec-triple-alliance',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2605410',
             'map_bounds' => '-103.2,18.2,-100.2,21.2',
             'map_coordinates' => [
                 -101.7,
@@ -420,6 +436,7 @@ return [
                 'norte-chico-civilization',
                 'tiwanaku-civilization',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q17449251',
             'map_bounds' => '-79.983958,-12.383958,-74.416042,-6.816042',
             'map_coordinates' => [
                 -77.2,
@@ -454,6 +471,7 @@ return [
                 'chim-kingdom',
                 'caral-civilization',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q208188',
             'map_bounds' => '-80.5,-9.6,-77.5,-6.6',
             'map_coordinates' => [
                 -79,
@@ -489,6 +507,7 @@ return [
                 'tiwanaku-civilization',
                 'huari-tiwanaku-interaction-sphere',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1307407',
             'map_bounds' => '-72.637111,-20.537111,-64.762889,-12.662889',
             'map_coordinates' => [
                 -68.7,
@@ -525,6 +544,7 @@ return [
                 'nazca-culture',
                 'huari-tiwanaku-interaction-sphere',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q923516',
             'map_bounds' => '-80.42512,-19.52512,-67.97488,-7.07488',
             'map_coordinates' => [
                 -74.2,
@@ -559,6 +579,7 @@ return [
                 'kingdom-of-cusco',
                 'chimu-inca-war',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q581741',
             'map_bounds' => '-80.607319,-9.707319,-77.392681,-6.492681',
             'map_coordinates' => [
                 -79,
@@ -598,6 +619,7 @@ return [
                 'spanish-empire',
                 'viceroyalty-of-peru',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28573',
             'map_bounds' => '-79.088149,-20.688149,-64.711851,-6.311851',
             'map_coordinates' => [
                 -71.9,
@@ -630,6 +652,7 @@ return [
                 'chav-n-civilization',
                 'wari-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q210570',
             'map_bounds' => '-76.6,-16.2,-73.6,-13.2',
             'map_coordinates' => [
                 -75.1,
@@ -664,6 +687,7 @@ return [
                 'hopewell-culture',
                 'iroquois-confederacy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1052095',
             'map_bounds' => '-95.182789,33.617211,-85.017211,43.782789',
             'map_coordinates' => [
                 -90.1,
@@ -696,6 +720,7 @@ return [
                 'mississippian-culture',
                 'hohokam-culture',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q478805',
             'map_bounds' => '-109.732626,34.967374,-106.067374,38.632626',
             'map_coordinates' => [
                 -107.9,
@@ -727,6 +752,7 @@ return [
             'relations' => [
                 'ancestral-puebloans',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1255768',
             'map_bounds' => '-113.6,31.9,-110.6,34.9',
             'map_coordinates' => [
                 -112.1,
@@ -758,6 +784,7 @@ return [
             'relations' => [
                 'mississippian-culture',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1305793',
             'map_bounds' => '-87.546185,34.853815,-78.453815,43.946185',
             'map_coordinates' => [
                 -83,
@@ -790,6 +817,7 @@ return [
                 'mississippian-culture',
                 'new-france',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1421590',
             'map_bounds' => '-78.273092,40.726908,-73.726908,45.273092',
             'map_coordinates' => [
                 -76,
@@ -824,6 +852,7 @@ return [
                 'palenque',
                 'cop-n',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q181172',
             'map_bounds' => '-91.1,15.7,-88.1,18.7',
             'map_coordinates' => [
                 -89.6,
@@ -856,6 +885,7 @@ return [
                 'maya-classic-period',
                 'tikal',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q24308',
             'map_bounds' => '-93.5,16,-90.5,19',
             'map_coordinates' => [
                 -92,
@@ -888,6 +918,7 @@ return [
                 'maya-classic-period',
                 'tikal',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q214827',
             'map_bounds' => '-90.6,13.3,-87.6,16.3',
             'map_coordinates' => [
                 -89.1,
@@ -921,6 +952,7 @@ return [
                 'moche-civilization',
                 'norte-chico-civilization',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q153836',
             'map_bounds' => '-79,-12.4,-76,-9.4',
             'map_coordinates' => [
                 -77.5,
@@ -953,6 +985,7 @@ return [
                 'caral-civilization',
                 'chav-n-civilization',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q153836',
             'map_bounds' => '-79.2,-12.1,-76.2,-9.1',
             'map_coordinates' => [
                 -77.7,
@@ -985,6 +1018,7 @@ return [
                 'toltec-empire',
                 'aztec-triple-alliance',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q187897',
             'map_bounds' => '-99.7,17.5,-96.7,20.5',
             'map_coordinates' => [
                 -98.2,
@@ -1017,6 +1051,7 @@ return [
                 'postclassic-maya',
                 'toltec-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q103897305',
             'map_bounds' => '-90.1,19.2,-87.1,22.2',
             'map_coordinates' => [
                 -88.6,
@@ -1048,6 +1083,7 @@ return [
             'relations' => [
                 'aztec-triple-alliance',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q614072',
             'map_bounds' => '-99.7,17.8,-96.7,20.8',
             'map_coordinates' => [
                 -98.2,
@@ -1080,6 +1116,7 @@ return [
                 'inca-empire',
                 'chim-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2314963',
             'map_bounds' => '-73.507319,-15.107319,-70.292681,-11.892681',
             'map_coordinates' => [
                 -71.9,
@@ -1111,6 +1148,7 @@ return [
             'relations' => [
                 'inca-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5782830',
             'map_bounds' => '-74.9,4,-71.9,7',
             'map_coordinates' => [
                 -73.4,
@@ -1142,6 +1180,7 @@ return [
             'relations' => [
                 'aztec-triple-alliance',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q210623',
             'map_bounds' => '-71.5,17.5,-68.5,20.5',
             'map_coordinates' => [
                 -70,
@@ -1174,6 +1213,7 @@ return [
                 'chav-n-civilization',
                 'tiwanaku-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q61750',
             'map_bounds' => '-70.2,-18,-67.2,-15',
             'map_coordinates' => [
                 -68.7,
@@ -1271,6 +1311,7 @@ return [
                 'neo-assyrian-empire',
                 'achaemenid-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q35470',
             'map_bounds' => '46.085362,28.685362,52.514638,35.114638',
             'map_coordinates' => [
                 49.3,
@@ -1303,6 +1344,7 @@ return [
                 'neo-assyrian-empire',
                 'achaemenid-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q20437507',
             'map_bounds' => '42.894867,27.194867,59.905133,44.205133',
             'map_coordinates' => [
                 51.4,
@@ -1342,6 +1384,7 @@ return [
                 'scythian-confederation',
                 'empire-of-alexander-the-great',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q389688',
             'map_bounds' => '40.979803,17.979803,64.820197,41.820197',
             'map_coordinates' => [
                 52.9,
@@ -1377,6 +1420,7 @@ return [
                 'western-han-dynasty',
                 'roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1986139',
             'map_bounds' => '50.090972,27.790972,69.109028,46.809028',
             'map_coordinates' => [
                 59.6,
@@ -1412,6 +1456,7 @@ return [
                 'palmyrene-empire',
                 'ghassanid-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83891',
             'map_bounds' => '44.190972,22.890972,63.209028,41.909028',
             'map_coordinates' => [
                 53.7,
@@ -1446,6 +1491,7 @@ return [
                 'achaemenid-empire',
                 'maurya-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q488880',
             'map_bounds' => '61.817211,31.717211,71.982789,41.882789',
             'map_coordinates' => [
                 66.9,
@@ -1478,6 +1524,7 @@ return [
                 'achaemenid-empire',
                 'sarmatian-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q131802',
             'map_bounds' => '46.963405,39.963405,63.036595,56.036595',
             'map_coordinates' => [
                 55,
@@ -1510,6 +1557,7 @@ return [
                 'scythian-confederation',
                 'hunnic-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12150674',
             'map_bounds' => '40.811851,42.811851,55.188149,57.188149',
             'map_coordinates' => [
                 48,
@@ -1543,6 +1591,7 @@ return [
                 'western-roman-empire',
                 'visigothic-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10295972',
             'map_bounds' => '23.834422,36.834422,44.165578,57.165578',
             'map_coordinates' => [
                 34,
@@ -1577,6 +1626,7 @@ return [
                 'umayyad-caliphate',
                 'ghassanid-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12490507',
             'map_bounds' => '33.841448,11.841448,59.558552,37.558552',
             'map_coordinates' => [
                 46.7,
@@ -1612,6 +1662,7 @@ return [
                 'umayyad-caliphate-of-c-rdoba',
                 'fatimid-caliphate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8575586',
             'map_bounds' => '19.365843,16.565843,53.234157,50.434157',
             'map_coordinates' => [
                 36.3,
@@ -1652,6 +1703,7 @@ return [
                 'ismaili-nizari-state',
                 'tang-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12536',
             'map_bounds' => '33.872367,22.772367,54.927633,43.827633',
             'map_coordinates' => [
                 44.4,
@@ -1685,6 +1737,7 @@ return [
                 'seljuk-sultanate',
                 'ziyarid-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q103895310',
             'map_bounds' => '45.453815,27.453815,54.546185,36.546185',
             'map_coordinates' => [
                 50,
@@ -1719,6 +1772,7 @@ return [
                 'qarakhanid-khanate',
                 'ziyarid-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12150341',
             'map_bounds' => '58.244322,30.944322,75.555678,48.255678',
             'map_coordinates' => [
                 66.9,
@@ -1752,6 +1806,7 @@ return [
                 'seljuk-sultanate',
                 'ghurid-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q249578',
             'map_bounds' => '59.0278,24.1278,77.7722,42.8722',
             'map_coordinates' => [
                 68.4,
@@ -1791,6 +1846,7 @@ return [
                 'ismaili-nizari-state',
                 'crusader-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q167100',
             'map_bounds' => '48.362296,27.862296,68.437704,47.937704',
             'map_coordinates' => [
                 58.4,
@@ -1825,6 +1881,7 @@ return [
                 'ilkhanate',
                 'kara-khanid-khanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q63134381',
             'map_bounds' => '52.891569,33.791569,68.308431,49.208431',
             'map_coordinates' => [
                 60.6,
@@ -1861,6 +1918,7 @@ return [
                 'khwarazmian-empire',
                 'mamluk-sultanate-of-egypt',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q178084',
             'map_bounds' => '41.557221,25.857221,61.242779,45.542779',
             'map_coordinates' => [
                 51.4,
@@ -1897,6 +1955,7 @@ return [
                 'chagatai-khanate',
                 'golden-horde',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q484195',
             'map_bounds' => '56.238252,29.038252,77.561748,50.361748',
             'map_coordinates' => [
                 66.9,
@@ -1932,6 +1991,7 @@ return [
                 'mughal-india-under-akbar',
                 'safavid-persia-early-modern',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q18234383',
             'map_bounds' => '45.044322,23.744322,62.355678,41.055678',
             'map_coordinates' => [
                 53.7,
@@ -1966,6 +2026,7 @@ return [
                 'zand-dynasty',
                 'qajar-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q63149558',
             'map_bounds' => '52.411851,29.111851,66.788149,43.488149',
             'map_coordinates' => [
                 59.6,
@@ -1998,6 +2059,7 @@ return [
                 'afsharid-empire',
                 'qajar-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2284836',
             'map_bounds' => '47.417211,24.517211,57.582789,34.682789',
             'map_coordinates' => [
                 52.5,
@@ -2030,6 +2092,7 @@ return [
                 'ghaznavid-empire',
                 'delhi-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q103924831',
             'map_bounds' => '57.111851,27.211851,71.488149,41.588149',
             'map_coordinates' => [
                 64.3,
@@ -2063,6 +2126,7 @@ return [
                 'seljuk-sultanate',
                 'kara-khanid-khanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q494354',
             'map_bounds' => '66.57488,34.27488,79.02512,46.72512',
             'map_coordinates' => [
                 72.8,
@@ -2095,6 +2159,7 @@ return [
                 'mongol-empire',
                 'timurid-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q487829',
             'map_bounds' => '65.490972,32.490972,84.509028,51.509028',
             'map_coordinates' => [
                 75,
@@ -2128,6 +2193,7 @@ return [
                 'timurid-empire',
                 'principality-of-moscow',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q79965',
             'map_bounds' => '32.04976,36.04976,56.95024,60.95024',
             'map_coordinates' => [
                 44.5,
@@ -2161,6 +2227,7 @@ return [
                 'abbasid-caliphate',
                 'kingdom-of-le-n',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q171740',
             'map_bounds' => '-8.209639,34.490361,-1.390361,41.309639',
             'map_coordinates' => [
                 -4.8,
@@ -2194,6 +2261,7 @@ return [
                 'umayyad-caliphate',
                 'ayyubid-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q160307',
             'map_bounds' => '20.908137,19.808137,41.491863,40.391863',
             'map_coordinates' => [
                 31.2,
@@ -2228,6 +2296,7 @@ return [
                 'crusader-states',
                 'kingdom-of-jerusalem',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q180114',
             'map_bounds' => '29.111851,26.311851,43.488149,40.688149',
             'map_coordinates' => [
                 36.3,
@@ -2263,6 +2332,7 @@ return [
                 'crusader-states',
                 'mali-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q282428',
             'map_bounds' => '24.97488,23.87488,37.42512,36.32512',
             'map_coordinates' => [
                 31.2,
@@ -2295,6 +2365,7 @@ return [
                 'byzantine-empire',
                 'seljuk-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q154667',
             'map_bounds' => '40.862889,37.762889,48.737111,45.637111',
             'map_coordinates' => [
                 44.8,
@@ -2327,6 +2398,7 @@ return [
                 'roman-empire',
                 'sasanian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q877875',
             'map_bounds' => '32.285963,28.585963,44.314037,40.614037',
             'map_coordinates' => [
                 38.3,
@@ -2360,6 +2432,7 @@ return [
                 'sasanian-empire',
                 'rashidun-caliphate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q733668',
             'map_bounds' => '34.392681,30.392681,37.607319,33.607319',
             'map_coordinates' => [
                 36,
@@ -2392,6 +2465,7 @@ return [
                 'qarakhanid-khanate',
                 'khwarazmian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q494354',
             'map_bounds' => '67.917211,34.917211,78.082789,45.082789',
             'map_coordinates' => [
                 73,
@@ -2424,6 +2498,7 @@ return [
                 'samanid-empire',
                 'buyid-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q207044',
             'map_bounds' => '52.126908,34.526908,56.673092,39.073092',
             'map_coordinates' => [
                 54.4,
@@ -2456,6 +2531,7 @@ return [
                 'seljuk-sultanate',
                 'abbasid-caliphate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6563843',
             'map_bounds' => '48.892681,34.892681,52.107319,38.107319',
             'map_coordinates' => [
                 50.5,
@@ -2488,6 +2564,7 @@ return [
                 'zand-dynasty',
                 'afsharid-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q189326',
             'map_bounds' => '44.970724,29.270724,57.829276,42.129276',
             'map_coordinates' => [
                 51.4,
@@ -2529,6 +2606,7 @@ return [
                 'albanian-league-of-lezh',
                 'kingdom-of-bosnia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12560',
             'map_bounds' => '17.409458,29.409458,40.590542,52.590542',
             'map_coordinates' => [
                 29,
@@ -2571,6 +2649,7 @@ return [
                 'aztec-cultural-legacy',
                 'viceroyalty-of-peru',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q80702',
             'map_bounds' => '-26.430924,17.669076,19.030924,63.130924',
             'map_coordinates' => [
                 -3.7,
@@ -2608,6 +2687,7 @@ return [
                 'kingdom-of-kongo-early-modern',
                 'imamate-of-muscat',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q200464',
             'map_bounds' => '-25.491502,22.308498,7.291502,55.091502',
             'map_coordinates' => [
                 -9.1,
@@ -2643,6 +2723,7 @@ return [
                 'kingdom-of-prussia',
                 'thirty-years-war-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q66504140',
             'map_bounds' => '12.177918,43.977918,20.622082,52.422082',
             'map_coordinates' => [
                 16.4,
@@ -2679,6 +2760,7 @@ return [
                 'republic-of-the-seven-united-netherlands',
                 'commonwealth-of-england',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q170072',
             'map_bounds' => '-1.727146,45.772854,11.527146,59.027146',
             'map_coordinates' => [
                 4.9,
@@ -2714,6 +2796,7 @@ return [
                 'thirty-years-war-states',
                 'kingdom-of-denmark-norway',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q34',
             'map_bounds' => '13.278043,54.478043,22.921957,64.121957',
             'map_coordinates' => [
                 18.1,
@@ -2748,6 +2831,7 @@ return [
                 'russian-empire',
                 'tsardom-of-russia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q172107',
             'map_bounds' => '15.917211,47.117211,26.082789,57.282789',
             'map_coordinates' => [
                 21,
@@ -2787,6 +2871,7 @@ return [
                 'qing-dynasty-early-modern',
                 'qing-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q34266',
             'map_bounds' => '13.330015,31.430015,61.869985,79.969985',
             'map_coordinates' => [
                 37.6,
@@ -2823,6 +2908,7 @@ return [
                 'haitian-revolution-state',
                 'new-france',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q71084',
             'map_bounds' => '-5.065661,41.534339,9.665661,56.265661',
             'map_coordinates' => [
                 2.3,
@@ -2857,6 +2943,7 @@ return [
                 'russian-empire',
                 'electorate-of-saxony',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q27306',
             'map_bounds' => '10.392981,49.492981,16.407019,55.507019',
             'map_coordinates' => [
                 13.4,
@@ -2891,6 +2978,7 @@ return [
                 'malacca-sultanate',
                 'british-east-india-company',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q159766',
             'map_bounds' => '99.611851,-13.388149,113.988149,0.988149',
             'map_coordinates' => [
                 106.8,
@@ -2928,6 +3016,7 @@ return [
                 'kingdom-of-mysore',
                 'sikh-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83164',
             'map_bounds' => '78.234422,12.434422,98.565578,32.765578',
             'map_coordinates' => [
                 88.4,
@@ -2961,6 +3050,7 @@ return [
                 'russian-empire',
                 'polish-lithuanian-commonwealth',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q186096',
             'map_bounds' => '24.345708,42.445708,50.854292,68.954292',
             'map_coordinates' => [
                 37.6,
@@ -3026,6 +3116,7 @@ return [
                 'kingdom-of-denmark',
                 'kingdom-of-sweden-early-modern',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q62651',
             'map_bounds' => '8.053815,51.153815,17.146185,60.246185',
             'map_coordinates' => [
                 12.6,
@@ -3058,6 +3149,7 @@ return [
                 'holy-roman-empire',
                 'kingdom-of-prussia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q156199',
             'map_bounds' => '12.2,49.6,15.2,52.6',
             'map_coordinates' => [
                 13.7,
@@ -3090,6 +3182,7 @@ return [
                 'dutch-republic',
                 'spanish-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q170072',
             'map_bounds' => '3.4,50.9,6.4,53.9',
             'map_coordinates' => [
                 4.9,
@@ -3122,6 +3215,7 @@ return [
                 'kingdom-of-england',
                 'dutch-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q330362',
             'map_bounds' => '-2.929977,48.670023,2.729977,54.329977',
             'map_coordinates' => [
                 -0.1,
@@ -3155,6 +3249,7 @@ return [
                 'safavid-empire',
                 'safavid-persia-early-modern',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8597',
             'map_bounds' => '67.834422,17.034422,88.165578,37.365578',
             'map_coordinates' => [
                 78,
@@ -3188,6 +3283,7 @@ return [
                 'russian-empire',
                 'mongol-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q409962',
             'map_bounds' => '98.003393,21.503393,134.796607,58.296607',
             'map_coordinates' => [
                 116.4,
@@ -3221,6 +3317,7 @@ return [
                 'spanish-empire',
                 'joseon-dynasty-early-modern',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q205662',
             'map_bounds' => '136.566758,32.566758,142.833242,38.833242',
             'map_coordinates' => [
                 139.7,
@@ -3253,6 +3350,7 @@ return [
                 'joseon-dynasty',
                 'tokugawa-shogunate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28179',
             'map_bounds' => '124.515961,35.215961,129.284039,39.984039',
             'map_coordinates' => [
                 126.9,
@@ -3286,6 +3384,7 @@ return [
                 'ottoman-empire',
                 'mughal-india-under-akbar',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q18234383',
             'map_bounds' => '43.663405,24.663405,59.736595,40.736595',
             'map_coordinates' => [
                 51.7,
@@ -3318,6 +3417,7 @@ return [
                 'songhai-empire',
                 'mali-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q202687',
             'map_bounds' => '-6.014037,10.285963,6.014037,22.314037',
             'map_coordinates' => [
                 0,
@@ -3350,6 +3450,7 @@ return [
                 'vijayanagara-empire',
                 'portuguese-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q121235',
             'map_bounds' => '72.905925,11.705925,80.094075,18.894075',
             'map_coordinates' => [
                 76.5,
@@ -3385,6 +3486,7 @@ return [
                 'mughal-decline-period',
                 'afghan-durrani-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83618',
             'map_bounds' => '65.863405,10.463405,81.936595,26.536595',
             'map_coordinates' => [
                 73.9,
@@ -3417,6 +3519,7 @@ return [
                 'hausa-city-states',
                 'kanem-bornu-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q600524',
             'map_bounds' => '1.985362,9.885362,8.414638,16.314638',
             'map_coordinates' => [
                 5.2,
@@ -3449,6 +3552,7 @@ return [
                 'kingdom-of-kongo',
                 'portuguese-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q796583',
             'map_bounds' => '11.758605,-8.541395,16.841395,-3.458605',
             'map_coordinates' => [
                 14.3,
@@ -3481,6 +3585,7 @@ return [
                 'dahomey-kingdom',
                 'oyo-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q468814',
             'map_bounds' => '0.7,5.7,3.7,8.7',
             'map_coordinates' => [
                 2.2,
@@ -3514,6 +3619,7 @@ return [
                 'british-east-india-company',
                 'maratha-empire-under-peshwas',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q125292294',
             'map_bounds' => '72.117211,23.517211,82.282789,33.682789',
             'map_coordinates' => [
                 77.2,
@@ -3548,6 +3654,7 @@ return [
                 'imamate-of-muscat',
                 'zanzibar-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q22684779',
             'map_bounds' => '29.685963,-12.214037,41.714037,-0.185963',
             'map_coordinates' => [
                 35.7,
@@ -3580,6 +3687,7 @@ return [
                 'holy-roman-empire',
                 'french-empire-napoleon',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q154741',
             'map_bounds' => '5.492981,46.992981,11.507019,53.007019',
             'map_coordinates' => [
                 8.5,
@@ -3612,6 +3720,7 @@ return [
                 'french-empire-napoleon',
                 'spanish-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q689128',
             'map_bounds' => '-73.8,17.4,-70.8,20.4',
             'map_coordinates' => [
                 -72.3,
@@ -3644,6 +3753,7 @@ return [
                 'omani-empire',
                 'portuguese-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1752110',
             'map_bounds' => '55.816042,20.816042,61.383958,26.383958',
             'map_coordinates' => [
                 58.6,
@@ -3676,6 +3786,7 @@ return [
                 'aztec-triple-alliance',
                 'spanish-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12542',
             'map_bounds' => '-101.373092,17.126908,-96.826908,21.673092',
             'map_coordinates' => [
                 -99.1,
@@ -3708,6 +3819,7 @@ return [
                 'spanish-empire',
                 'inca-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q211435',
             'map_bounds' => '-85.803649,-20.903649,-68.196351,-3.296351',
             'map_coordinates' => [
                 -77,
@@ -3740,6 +3852,7 @@ return [
                 'french-empire-napoleon',
                 'iroquois-confederacy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q170604',
             'map_bounds' => '-81.861748,36.138252,-60.538252,57.461748',
             'map_coordinates' => [
                 -71.2,
@@ -3772,6 +3885,7 @@ return [
                 'delhi-sultanate',
                 'mughal-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q42583',
             'map_bounds' => '87.392981,20.692981,93.407019,26.707019',
             'map_coordinates' => [
                 90.4,
@@ -3806,6 +3920,7 @@ return [
                 'mughal-empire',
                 'golconda-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83821',
             'map_bounds' => '73.426908,14.526908,77.973092,19.073092',
             'map_coordinates' => [
                 75.7,
@@ -3839,6 +3954,7 @@ return [
                 'mughal-empire',
                 'bijapur-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q19805959',
             'map_bounds' => '76.126908,15.126908,80.673092,19.673092',
             'map_coordinates' => [
                 78.4,
@@ -3872,6 +3988,7 @@ return [
                 'afghan-durrani-empire',
                 'sikh-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2578028',
             'map_bounds' => '72.626908,29.326908,77.173092,33.873092',
             'map_coordinates' => [
                 74.9,
@@ -3906,6 +4023,7 @@ return [
                 'maratha-empire-under-peshwas',
                 'sikh-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q467627',
             'map_bounds' => '55.534422,21.434422,75.865578,41.765578',
             'map_coordinates' => [
                 65.7,
@@ -3939,6 +4057,7 @@ return [
                 'british-east-india-company',
                 'maratha-confederacy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q266923',
             'map_bounds' => '74.426908,10.026908,78.973092,14.573092',
             'map_coordinates' => [
                 76.7,
@@ -3971,6 +4090,7 @@ return [
                 'omani-empire',
                 'swahili-city-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q157904',
             'map_bounds' => '36.558905,-8.841095,41.841095,-3.558905',
             'map_coordinates' => [
                 39.2,
@@ -4004,6 +4124,7 @@ return [
                 'afghan-durrani-empire',
                 'british-east-india-company',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83572',
             'map_bounds' => '69.569126,26.269126,80.230874,36.930874',
             'map_coordinates' => [
                 74.9,
@@ -4035,6 +4156,7 @@ return [
             'relations' => [
                 'shang-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q169705',
             'map_bounds' => '109.425925,31.085925,116.614075,38.274075',
             'map_coordinates' => [
                 113.02,
@@ -4066,6 +4188,7 @@ return [
                 'xia-dynasty',
                 'western-zhou-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q128938',
             'map_bounds' => '109.217211,31.007211,119.382789,41.172789',
             'map_coordinates' => [
                 114.3,
@@ -4098,6 +4221,7 @@ return [
                 'shang-dynasty',
                 'spring-and-autumn-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1069609',
             'map_bounds' => '101.741851,27.081851,116.118149,41.458149',
             'map_coordinates' => [
                 108.93,
@@ -4132,6 +4256,7 @@ return [
                 'kingdom-of-chu',
                 'kingdom-of-qi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q11871241',
             'map_bounds' => '104.413405,26.643405,120.486595,42.716595',
             'map_coordinates' => [
                 112.45,
@@ -4169,6 +4294,7 @@ return [
                 'kingdom-of-wei',
                 'kingdom-of-zhao',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1199672',
             'map_bounds' => '103.646351,25.876351,121.253649,43.483649',
             'map_coordinates' => [
                 112.45,
@@ -4202,6 +4328,7 @@ return [
                 'qin-dynasty',
                 'spring-and-autumn-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q504759',
             'map_bounds' => '105.95488,24.10488,118.40512,36.55512',
             'map_coordinates' => [
                 112.18,
@@ -4234,6 +4361,7 @@ return [
                 'warring-states-period',
                 'qin-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q837855',
             'map_bounds' => '114.236042,33.896042,119.803958,39.463958',
             'map_coordinates' => [
                 117.02,
@@ -4266,6 +4394,7 @@ return [
                 'warring-states-period',
                 'qin-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q34756',
             'map_bounds' => '104.383815,29.723815,113.476185,38.816185',
             'map_coordinates' => [
                 108.93,
@@ -4298,6 +4427,7 @@ return [
                 'kingdom-of-zhao',
                 'qin-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q912052',
             'map_bounds' => '111.115362,31.575362,117.544638,38.004638',
             'map_coordinates' => [
                 114.33,
@@ -4330,6 +4460,7 @@ return [
                 'kingdom-of-wei',
                 'xiongnu-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6412682',
             'map_bounds' => '111.130361,33.190361,117.949639,40.009639',
             'map_coordinates' => [
                 114.54,
@@ -4366,6 +4497,7 @@ return [
                 'kingdom-of-wei',
                 'nanyue-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7183',
             'map_bounds' => '99.420972,24.760972,118.439028,43.779028',
             'map_coordinates' => [
                 108.93,
@@ -4402,6 +4534,7 @@ return [
                 'gojoseon',
                 'nanyue-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1072949',
             'map_bounds' => '96.47976,21.81976,121.38024,46.72024',
             'map_coordinates' => [
                 108.93,
@@ -4434,6 +4567,7 @@ return [
                 'western-han-dynasty',
                 'eastern-han-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q504769',
             'map_bounds' => '97.564538,22.904538,120.295462,45.635462',
             'map_coordinates' => [
                 108.93,
@@ -4467,6 +4601,7 @@ return [
                 'shu-han',
                 'eastern-wu',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1147037',
             'map_bounds' => '99.99976,22.22976,124.90024,47.13024',
             'map_coordinates' => [
                 112.45,
@@ -4500,6 +4635,7 @@ return [
                 'eastern-wu',
                 'western-jin-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q320930',
             'map_bounds' => '103.794322,26.024322,121.105678,43.335678',
             'map_coordinates' => [
                 112.45,
@@ -4531,6 +4667,7 @@ return [
                 'eastern-han-dynasty',
                 'cao-wei',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q320925',
             'map_bounds' => '98.987211,25.487211,109.152789,35.652789',
             'map_coordinates' => [
                 104.07,
@@ -4563,6 +4700,7 @@ return [
                 'cao-wei',
                 'eastern-jin-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q274488',
             'map_bounds' => '112.775963,26.045963,124.804037,38.074037',
             'map_coordinates' => [
                 118.79,
@@ -4596,6 +4734,7 @@ return [
                 'eastern-jin-dynasty',
                 'sixteen-kingdoms',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1145470',
             'map_bounds' => '100.638666,22.868666,124.261334,46.491334',
             'map_coordinates' => [
                 112.45,
@@ -4631,6 +4770,7 @@ return [
                 'liu-song-dynasty',
                 'former-qin',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q306928',
             'map_bounds' => '112.56488,25.83488,125.01512,38.28512',
             'map_coordinates' => [
                 118.79,
@@ -4665,6 +4805,7 @@ return [
                 'eastern-jin-dynasty',
                 'former-qin',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q683551',
             'map_bounds' => '102.70488,28.04488,115.15512,40.49512',
             'map_coordinates' => [
                 108.93,
@@ -4703,6 +4844,7 @@ return [
                 'western-wei',
                 'tuyuhun',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q875305',
             'map_bounds' => '103.134422,29.944422,123.465578,50.275578',
             'map_coordinates' => [
                 113.3,
@@ -4737,6 +4879,7 @@ return [
                 'sui-dynasty',
                 'western-wei',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q551067',
             'map_bounds' => '100.424867,25.764867,117.435133,42.775133',
             'map_coordinates' => [
                 108.93,
@@ -4769,6 +4912,7 @@ return [
                 'tang-dynasty',
                 'chen-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7405',
             'map_bounds' => '98.028632,23.368632,119.831368,45.171368',
             'map_coordinates' => [
                 108.93,
@@ -4811,6 +4955,7 @@ return [
                 'tuyuhun',
                 'srivijaya-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1104597',
             'map_bounds' => '97.118666,22.458666,120.741334,46.081334',
             'map_coordinates' => [
                 108.93,
@@ -4844,6 +4989,7 @@ return [
                 'tang-dynasty',
                 'northern-song-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q97650998',
             'map_bounds' => '109.247211,29.707211,119.412789,39.872789',
             'map_coordinates' => [
                 114.33,
@@ -4878,6 +5024,7 @@ return [
                 'jin-dynasty-jurchen',
                 'western-xia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q319460',
             'map_bounds' => '106.964339,27.424339,121.695661,42.155661',
             'map_coordinates' => [
                 114.33,
@@ -4911,6 +5058,7 @@ return [
                 'jin-dynasty-jurchen',
                 'yuan-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q112162644',
             'map_bounds' => '113.340723,23.430723,126.979277,37.069277',
             'map_coordinates' => [
                 120.16,
@@ -4946,6 +5094,7 @@ return [
                 'jin-dynasty-jurchen',
                 'western-xia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4958',
             'map_bounds' => '107.864167,32.284167,130.135833,54.555833',
             'map_coordinates' => [
                 119,
@@ -4980,6 +5129,7 @@ return [
                 'southern-song-dynasty',
                 'mongol-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5066',
             'map_bounds' => '107.0278,30.7178,125.7722,49.4622',
             'map_coordinates' => [
                 116.4,
@@ -5014,6 +5164,7 @@ return [
                 'mongol-empire',
                 'dali-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7313',
             'map_bounds' => '105.607776,29.127776,127.172224,50.692224',
             'map_coordinates' => [
                 116.39,
@@ -5048,6 +5199,7 @@ return [
                 'kingdom-of-ryukyu',
                 'later-jin-manchu',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6864635',
             'map_bounds' => '106.880972,30.400972,125.899028,49.419028',
             'map_coordinates' => [
                 116.39,
@@ -5082,6 +5234,7 @@ return [
                 'qing-dynasty-early-modern',
                 'later-jin-manchu',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q409962',
             'map_bounds' => '97.993393,21.513393,134.786607,58.306607',
             'map_coordinates' => [
                 116.39,
@@ -5114,6 +5267,7 @@ return [
                 'kingdom-of-zhao',
                 'xianbei-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q188836',
             'map_bounds' => '98.196351,38.696351,115.803649,56.303649',
             'map_coordinates' => [
                 107,
@@ -5148,6 +5302,7 @@ return [
                 'northern-wei-dynasty',
                 'rouran-khaganate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q861054',
             'map_bounds' => '103.634538,35.634538,126.365462,58.365462',
             'map_coordinates' => [
                 115,
@@ -5181,6 +5336,7 @@ return [
                 'xianbei-confederation',
                 'g-kt-rk-khaganate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q155361',
             'map_bounds' => '96.196351,39.196351,113.803649,56.803649',
             'map_coordinates' => [
                 105,
@@ -5214,6 +5370,7 @@ return [
                 'northern-zhou-dynasty',
                 'eastern-wei',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1143524',
             'map_bounds' => '108.39488,30.10488,120.84512,42.55512',
             'map_coordinates' => [
                 114.62,
@@ -5246,6 +5403,7 @@ return [
                 'western-han-dynasty',
                 'goguryeo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28405',
             'map_bounds' => '122.966042,36.236042,128.533958,41.803958',
             'map_coordinates' => [
                 125.75,
@@ -5276,6 +5434,7 @@ return [
             'relations' => [
                 'kofun-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q152621',
             'map_bounds' => '127.276758,30.456758,133.543242,36.723242',
             'map_coordinates' => [
                 130.41,
@@ -5307,6 +5466,7 @@ return [
                 'yayoi-period',
                 'asuka-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1141225',
             'map_bounds' => '132.666758,31.556758,138.933242,37.823242',
             'map_coordinates' => [
                 135.8,
@@ -5339,6 +5499,7 @@ return [
                 'baekje',
                 'nara-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q152628',
             'map_bounds' => '132.696758,31.356758,138.963242,37.623242',
             'map_coordinates' => [
                 135.83,
@@ -5372,6 +5533,7 @@ return [
                 'tang-dynasty',
                 'heian-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q36179',
             'map_bounds' => '132.696758,31.556758,138.963242,37.823242',
             'map_coordinates' => [
                 135.83,
@@ -5404,6 +5566,7 @@ return [
                 'nara-period',
                 'kamakura-shogunate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q405806',
             'map_bounds' => '132.636758,31.876758,138.903242,38.143242',
             'map_coordinates' => [
                 135.77,
@@ -5436,6 +5599,7 @@ return [
                 'mongol-empire',
                 'muromachi-shogunate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q200267',
             'map_bounds' => '136.416758,32.186758,142.683242,38.453242',
             'map_coordinates' => [
                 139.55,
@@ -5468,6 +5632,7 @@ return [
                 'kamakura-shogunate',
                 'sengoku-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q361738',
             'map_bounds' => '132.636758,31.886758,138.903242,38.153242',
             'map_coordinates' => [
                 135.77,
@@ -5500,6 +5665,7 @@ return [
                 'muromachi-shogunate',
                 'azuchi-momoyama-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q204023',
             'map_bounds' => '132.636758,31.876758,138.903242,38.143242',
             'map_coordinates' => [
                 135.77,
@@ -5532,6 +5698,7 @@ return [
                 'edo-period',
                 'joseon-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q319531',
             'map_bounds' => '132.966758,31.996758,139.233242,38.263242',
             'map_coordinates' => [
                 136.1,
@@ -5564,6 +5731,7 @@ return [
                 'kingdom-of-ryukyu',
                 'tokugawa-shogunate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1490',
             'map_bounds' => '136.556758,32.556758,142.823242,38.823242',
             'map_coordinates' => [
                 139.69,
@@ -5596,6 +5764,7 @@ return [
                 'baekje',
                 'silla',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28084',
             'map_bounds' => '127.39,33.73,130.39,36.73',
             'map_coordinates' => [
                 128.89,
@@ -5630,6 +5799,7 @@ return [
                 'balhae-kingdom',
                 'gaya-confederacy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28370',
             'map_bounds' => '121.497434,34.767434,130.002566,43.272566',
             'map_coordinates' => [
                 125.75,
@@ -5663,6 +5833,7 @@ return [
                 'asuka-period',
                 'gaya-confederacy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28428',
             'map_bounds' => '125.512681,34.832681,128.727319,38.047319',
             'map_coordinates' => [
                 127.12,
@@ -5697,6 +5868,7 @@ return [
                 'gaya-confederacy',
                 'unified-silla',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10843',
             'map_bounds' => '127.602681,34.232681,130.817319,37.447319',
             'map_coordinates' => [
                 129.21,
@@ -5729,6 +5901,7 @@ return [
                 'goryeo',
                 'later-three-kingdoms-of-korea',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q715257',
             'map_bounds' => '126.936908,33.566908,131.483092,38.113092',
             'map_coordinates' => [
                 129.21,
@@ -5763,6 +5936,7 @@ return [
                 'joseon-dynasty',
                 'balhae-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28208',
             'map_bounds' => '123.860441,35.280441,129.239559,40.659559',
             'map_coordinates' => [
                 126.55,
@@ -5796,6 +5970,7 @@ return [
                 'azuchi-momoyama-period',
                 'joseon-dynasty-early-modern',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28179',
             'map_bounds' => '124.585961,35.185961,129.354039,39.954039',
             'map_coordinates' => [
                 126.97,
@@ -5829,6 +6004,7 @@ return [
                 'tang-dynasty',
                 'second-turkic-khaganate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q15146034',
             'map_bounds' => '90.54976,35.04976,115.45024,59.95024',
             'map_coordinates' => [
                 103,
@@ -5862,6 +6038,7 @@ return [
                 'tang-dynasty',
                 'uyghur-khaganate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4833446',
             'map_bounds' => '94.696351,38.696351,112.303649,56.303649',
             'map_coordinates' => [
                 103.5,
@@ -5894,6 +6071,7 @@ return [
                 'second-turkic-khaganate',
                 'tang-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q831218',
             'map_bounds' => '93.996351,38.996351,111.603649,56.603649',
             'map_coordinates' => [
                 102.8,
@@ -5937,6 +6115,7 @@ return [
                 'western-xia',
                 'mongol-invasion-of-europe',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12557',
             'map_bounds' => '77.899521,22.299521,127.700479,72.100479',
             'map_coordinates' => [
                 102.8,
@@ -5970,6 +6149,7 @@ return [
                 'tang-dynasty',
                 'goryeo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28322',
             'map_bounds' => '125.875925,40.785925,133.064075,47.974075',
             'map_coordinates' => [
                 129.47,
@@ -6002,6 +6182,7 @@ return [
                 'liao-dynasty',
                 'mongol-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7427',
             'map_bounds' => '101.723815,33.923815,110.816185,43.016185',
             'map_coordinates' => [
                 106.27,
@@ -6035,6 +6216,7 @@ return [
                 'nanzhao-kingdom',
                 'tuyuhun',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2431480',
             'map_bounds' => '80.327776,18.867776,101.892224,40.432224',
             'map_coordinates' => [
                 91.11,
@@ -6068,6 +6250,7 @@ return [
                 'tibetan-empire',
                 'dali-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1045322',
             'map_bounds' => '97.486042,22.816042,103.053958,28.383958',
             'map_coordinates' => [
                 100.27,
@@ -6100,6 +6283,7 @@ return [
                 'nanzhao-kingdom',
                 'yuan-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q26472',
             'map_bounds' => '97.728605,23.058605,102.811395,28.141395',
             'map_coordinates' => [
                 100.27,
@@ -6132,6 +6316,7 @@ return [
                 'eastern-jin-dynasty',
                 'southern-qi-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q49697',
             'map_bounds' => '113.222084,26.492084,124.357916,37.627916',
             'map_coordinates' => [
                 118.79,
@@ -6163,6 +6348,7 @@ return [
                 'liu-song-dynasty',
                 'liang-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q62456',
             'map_bounds' => '113.707211,26.977211,123.872789,37.142789',
             'map_coordinates' => [
                 118.79,
@@ -6194,6 +6380,7 @@ return [
                 'southern-qi-dynasty',
                 'chen-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q59312',
             'map_bounds' => '113.459126,26.729126,124.120874,37.390874',
             'map_coordinates' => [
                 118.79,
@@ -6226,6 +6413,7 @@ return [
                 'liang-dynasty',
                 'sui-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q246357',
             'map_bounds' => '114.537434,27.807434,123.042566,36.312566',
             'map_coordinates' => [
                 118.79,
@@ -6257,6 +6445,7 @@ return [
                 'northern-wei-dynasty',
                 'northern-qi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q307069',
             'map_bounds' => '107.431851,29.141851,121.808149,43.518149',
             'map_coordinates' => [
                 114.62,
@@ -6288,6 +6477,7 @@ return [
                 'northern-wei-dynasty',
                 'northern-zhou-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1143164',
             'map_bounds' => '102.70488,28.04488,115.15512,40.49512',
             'map_coordinates' => [
                 108.93,
@@ -6319,6 +6509,7 @@ return [
                 'ming-dynasty',
                 'edo-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28025',
             'map_bounds' => '126.22,24.72,129.22,27.72',
             'map_coordinates' => [
                 127.72,
@@ -6351,6 +6542,7 @@ return [
                 'ming-dynasty',
                 'qing-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1473567',
             'map_bounds' => '117.20488,35.57488,129.65512,48.02512',
             'map_coordinates' => [
                 123.43,
@@ -6382,6 +6574,7 @@ return [
                 'qin-dynasty',
                 'western-han-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q700805',
             'map_bounds' => '110.045362,19.915362,116.474638,26.344638',
             'map_coordinates' => [
                 113.26,
@@ -6414,6 +6607,7 @@ return [
                 'tang-dynasty',
                 'tibetan-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1196201',
             'map_bounds' => '97.832889,32.682889,105.707111,40.557111',
             'map_coordinates' => [
                 101.77,
@@ -6446,6 +6640,7 @@ return [
                 'unified-silla',
                 'goryeo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q698268',
             'map_bounds' => '124.276908,35.696908,128.823092,40.243092',
             'map_coordinates' => [
                 126.55,
@@ -6477,6 +6672,7 @@ return [
                 'sixteen-kingdoms',
                 'eastern-jin-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1471995',
             'map_bounds' => '100.126351,25.466351,117.733649,43.073649',
             'map_coordinates' => [
                 108.93,
@@ -6510,6 +6706,7 @@ return [
                 'hunnic-empire',
                 'kingdom-of-le-n',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q126936',
             'map_bounds' => '-8.521957,35.578043,1.121957,45.221957',
             'map_coordinates' => [
                 -3.7,
@@ -6542,6 +6739,7 @@ return [
                 'western-roman-empire',
                 'byzantine-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q583038',
             'map_bounds' => '8.098176,37.498176,16.901824,46.301824',
             'map_coordinates' => [
                 12.5,
@@ -6575,6 +6773,7 @@ return [
                 'western-roman-empire',
                 'umayyad-caliphate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q146246',
             'map_bounds' => '-2.521957,44.578043,7.121957,54.221957',
             'map_coordinates' => [
                 2.3,
@@ -6611,6 +6810,7 @@ return [
                 'viking-age-scandinavia',
                 'papal-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q31929',
             'map_bounds' => '0.769126,45.469126,11.430874,56.130874',
             'map_coordinates' => [
                 6.1,
@@ -6663,6 +6863,7 @@ return [
                 'bohemian-hussite-movement',
                 'duchy-of-savoy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12548',
             'map_bounds' => '6.778043,43.378043,16.421957,53.021957',
             'map_coordinates' => [
                 11.6,
@@ -6704,6 +6905,7 @@ return [
                 'kingdom-of-navarre-france',
                 'angevin-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q70972',
             'map_bounds' => '-1.469497,45.130503,6.069497,52.669497',
             'map_coordinates' => [
                 2.3,
@@ -6743,6 +6945,7 @@ return [
                 'hundred-years-war-france-england',
                 'angevin-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q179876',
             'map_bounds' => '-2.068556,49.531444,1.868556,53.468556',
             'map_coordinates' => [
                 -0.1,
@@ -6781,6 +6984,7 @@ return [
                 'duchy-of-normandy',
                 'novgorod-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q213649',
             'map_bounds' => '5.617211,54.817211,15.782789,64.982789',
             'map_coordinates' => [
                 10.7,
@@ -6820,6 +7024,7 @@ return [
                 'principality-of-moscow',
                 'novgorod-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1108445',
             'map_bounds' => '24.594333,44.594333,36.405667,56.405667',
             'map_coordinates' => [
                 30.5,
@@ -6856,6 +7061,7 @@ return [
                 'kingdom-of-naples',
                 'papal-avignon-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q170174',
             'map_bounds' => '11,40.4,14,43.4',
             'map_coordinates' => [
                 12.5,
@@ -6893,6 +7099,7 @@ return [
                 'mongol-invasion-of-europe',
                 'kingdom-of-bosnia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q171150',
             'map_bounds' => '16.22474,44.62474,21.97526,50.37526',
             'map_coordinates' => [
                 19.1,
@@ -6932,6 +7139,7 @@ return [
                 'mongol-invasion-of-europe',
                 'teutonic-prussia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q400952',
             'map_bounds' => '15.669126,46.869126,26.330874,57.530874',
             'map_coordinates' => [
                 21,
@@ -6965,6 +7173,7 @@ return [
                 'kingdom-of-hungary',
                 'bohemian-hussite-movement',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q42585',
             'map_bounds' => '12.567374,48.267374,16.232626,51.932626',
             'map_coordinates' => [
                 14.4,
@@ -7001,6 +7210,7 @@ return [
                 'kingdom-of-norway',
                 'waldemar-iv-denmark',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q756617',
             'map_bounds' => '11.075163,54.175163,14.124837,57.224837',
             'map_coordinates' => [
                 12.6,
@@ -7036,6 +7246,7 @@ return [
                 'grand-principality-of-finland',
                 'livonian-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2460755',
             'map_bounds' => '14.690361,55.890361,21.509639,62.709639',
             'map_coordinates' => [
                 18.1,
@@ -7069,6 +7280,7 @@ return [
                 'kingdom-of-denmark',
                 'kingdom-of-scotland',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2196956',
             'map_bounds' => '7.546212,56.746212,13.853788,63.053788',
             'map_coordinates' => [
                 10.7,
@@ -7102,6 +7314,7 @@ return [
                 'umayyad-caliphate-of-c-rdoba',
                 'kingdom-of-castile',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q175276',
             'map_bounds' => '-8.141395,40.058605,-3.058605,45.141395',
             'map_coordinates' => [
                 -5.6,
@@ -7137,6 +7350,7 @@ return [
                 'kingdom-of-portugal',
                 'kingdom-of-navarre',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q179293',
             'map_bounds' => '-7.637111,36.462889,0.237111,44.337111',
             'map_coordinates' => [
                 -3.7,
@@ -7170,6 +7384,7 @@ return [
                 'holy-roman-empire',
                 'crown-of-aragon-sicily',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q199442',
             'map_bounds' => '-4.309639,38.290361,2.509639,45.109639',
             'map_coordinates' => [
                 -0.9,
@@ -7203,6 +7418,7 @@ return [
                 'malacca-sultanate',
                 'portuguese-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q45670',
             'map_bounds' => '-16.465661,31.334339,-1.734339,46.065661',
             'map_coordinates' => [
                 -9.1,
@@ -7235,6 +7451,7 @@ return [
                 'kingdom-of-england',
                 'kingdom-of-norway',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q230791',
             'map_bounds' => '-4.7,54.4,-1.7,57.4',
             'map_coordinates' => [
                 -3.2,
@@ -7268,6 +7485,7 @@ return [
                 'holy-roman-empire',
                 'swiss-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4712',
             'map_bounds' => '1.992981,44.292981,8.007019,50.307019',
             'map_coordinates' => [
                 5,
@@ -7305,6 +7523,7 @@ return [
                 'latin-empire-of-constantinople',
                 'duchy-of-milan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4948',
             'map_bounds' => '9.516042,42.616042,15.083958,48.183958',
             'map_coordinates' => [
                 12.3,
@@ -7338,6 +7557,7 @@ return [
                 'byzantine-empire',
                 'black-death-period',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q174306',
             'map_bounds' => '7.292681,42.792681,10.507319,46.007319',
             'map_coordinates' => [
                 8.9,
@@ -7372,6 +7592,7 @@ return [
                 'novgorod-republic',
                 'waldemar-iv-denmark',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q42908',
             'map_bounds' => '7.726908,51.326908,12.273092,55.873092',
             'map_coordinates' => [
                 10,
@@ -7406,6 +7627,7 @@ return [
                 'polish-lithuanian-commonwealth',
                 'teutonic-order-state',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3270263',
             'map_bounds' => '20.398336,49.798336,30.201664,59.601664',
             'map_coordinates' => [
                 25.3,
@@ -7441,6 +7663,7 @@ return [
                 'teutonic-prussia',
                 'livonian-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q156020',
             'map_bounds' => '16.008276,51.808276,21.191724,56.991724',
             'map_coordinates' => [
                 18.6,
@@ -7473,6 +7696,7 @@ return [
                 'byzantine-empire',
                 'kingdom-of-hungary',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q396928',
             'map_bounds' => '15.892681,43.192681,19.107319,46.407319',
             'map_coordinates' => [
                 17.5,
@@ -7508,6 +7732,7 @@ return [
                 'second-bulgarian-empire',
                 'kingdom-of-bosnia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1406298',
             'map_bounds' => '17.078043,38.478043,26.721957,48.121957',
             'map_coordinates' => [
                 21.9,
@@ -7543,6 +7768,7 @@ return [
                 'second-bulgarian-empire',
                 'kingdom-of-wallachia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q147909',
             'map_bounds' => '21.905925,39.105925,29.094075,46.294075',
             'map_coordinates' => [
                 25.5,
@@ -7578,6 +7804,7 @@ return [
                 'crown-of-aragon-sicily',
                 'kingdom-of-naples',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q188586',
             'map_bounds' => '12.5,36,15.5,39',
             'map_coordinates' => [
                 14,
@@ -7611,6 +7838,7 @@ return [
                 'republic-of-venice',
                 'duchy-of-milan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q148540',
             'map_bounds' => '9.7,42.3,12.7,45.3',
             'map_coordinates' => [
                 11.2,
@@ -7647,6 +7875,7 @@ return [
                 'latin-empire-of-constantinople',
                 'kingdom-of-jerusalem',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q190967',
             'map_bounds' => '33.592681,30.192681,36.807319,33.407319',
             'map_coordinates' => [
                 35.2,
@@ -7680,6 +7909,7 @@ return [
                 'kingdom-of-france',
                 'kingdom-of-england',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q842091',
             'map_bounds' => '-1.207319,47.592681,2.007319,50.807319',
             'map_coordinates' => [
                 0.4,
@@ -7713,6 +7943,7 @@ return [
                 'kingdom-of-france',
                 'kingdom-of-navarre-france',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q200262',
             'map_bounds' => '-3.1,41.3,-0.1,44.3',
             'map_coordinates' => [
                 -1.6,
@@ -7746,6 +7977,7 @@ return [
                 'byzantine-empire',
                 'serbian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q420759',
             'map_bounds' => '23.326908,40.826908,27.873092,45.373092',
             'map_coordinates' => [
                 25.6,
@@ -7782,6 +8014,7 @@ return [
                 'principality-of-achaea',
                 'duchy-of-athens',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q178897',
             'map_bounds' => '26.626908,38.726908,31.173092,43.273092',
             'map_coordinates' => [
                 28.9,
@@ -7816,6 +8049,7 @@ return [
                 'despotate-of-epirus',
                 'trebizond-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q181254',
             'map_bounds' => '28.092681,38.792681,31.307319,42.007319',
             'map_coordinates' => [
                 29.7,
@@ -7848,6 +8082,7 @@ return [
                 'byzantine-empire',
                 'empire-of-nicaea',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q187684',
             'map_bounds' => '19,38.2,22,41.2',
             'map_coordinates' => [
                 20.5,
@@ -7881,6 +8116,7 @@ return [
                 'byzantine-empire',
                 'duchy-of-athens',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q332005',
             'map_bounds' => '20.5,36,23.5,39',
             'map_coordinates' => [
                 22,
@@ -7913,6 +8149,7 @@ return [
                 'latin-empire-of-constantinople',
                 'principality-of-achaea',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q334714',
             'map_bounds' => '22.2,36.4,25.2,39.4',
             'map_coordinates' => [
                 23.7,
@@ -7945,6 +8182,7 @@ return [
                 'kievan-rus',
                 'kingdom-of-poland',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q239502',
             'map_bounds' => '21.726908,47.526908,26.273092,52.073092',
             'map_coordinates' => [
                 24,
@@ -7980,6 +8218,7 @@ return [
                 'tsardom-of-russia',
                 'pskov-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q170770',
             'map_bounds' => '29.094867,47.194867,46.105133,64.205133',
             'map_coordinates' => [
                 37.6,
@@ -8012,6 +8251,7 @@ return [
                 'byzantine-empire',
                 'empire-of-nicaea',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q178913',
             'map_bounds' => '38.2,39.5,41.2,42.5',
             'map_coordinates' => [
                 39.7,
@@ -8045,6 +8285,7 @@ return [
                 'ottoman-empire',
                 'principality-of-moldavia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6412678',
             'map_bounds' => '24.6,42.9,27.6,45.9',
             'map_coordinates' => [
                 26.1,
@@ -8077,6 +8318,7 @@ return [
                 'kingdom-of-poland',
                 'kingdom-of-wallachia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10957559',
             'map_bounds' => '27.366715,45.466715,30.433285,48.533285',
             'map_coordinates' => [
                 28.9,
@@ -8110,6 +8352,7 @@ return [
                 'kingdom-of-hungary',
                 'kingdom-of-poland',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q852171',
             'map_bounds' => '16.405925,45.405925,23.594075,52.594075',
             'map_coordinates' => [
                 20,
@@ -8142,6 +8385,7 @@ return [
                 'republic-of-genoa',
                 'holy-roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q42005',
             'map_bounds' => '-1.365462,33.634538,21.365462,56.365462',
             'map_coordinates' => [
                 10,
@@ -8174,6 +8418,7 @@ return [
                 'kingdom-of-france',
                 'kingdom-of-england',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12551',
             'map_bounds' => '-2.594075,43.405925,4.594075,50.594075',
             'map_coordinates' => [
                 1,
@@ -8206,6 +8451,7 @@ return [
                 'holy-roman-empire',
                 'duchy-of-burgundy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7658859',
             'map_bounds' => '6.7,45.4,9.7,48.4',
             'map_coordinates' => [
                 8.2,
@@ -8238,6 +8484,7 @@ return [
                 'kingdom-of-aragon',
                 'kingdom-of-sicily',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q204920',
             'map_bounds' => '12.5,36.1,15.5,39.1',
             'map_coordinates' => [
                 14,
@@ -8270,6 +8517,7 @@ return [
                 'kingdom-of-sweden',
                 'teutonic-order-state',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q62633',
             'map_bounds' => '22.78016,58.98016,28.61984,64.81984',
             'map_coordinates' => [
                 25.7,
@@ -8303,6 +8551,7 @@ return [
                 'papal-states',
                 'albanian-league-of-lezh',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q173065',
             'map_bounds' => '12.8,39.3,15.8,42.3',
             'map_coordinates' => [
                 14.3,
@@ -8337,6 +8586,7 @@ return [
                 'holy-roman-empire',
                 'duchy-of-savoy',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q153529',
             'map_bounds' => '7.7,44,10.7,47',
             'map_coordinates' => [
                 9.2,
@@ -8369,6 +8619,7 @@ return [
                 'papal-states',
                 'kingdom-of-france',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q202558',
             'map_bounds' => '3.3,42.4,6.3,45.4',
             'map_coordinates' => [
                 4.8,
@@ -8401,6 +8652,7 @@ return [
                 'kingdom-of-bohemia',
                 'holy-roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q131372',
             'map_bounds' => '12.9,48.6,15.9,51.6',
             'map_coordinates' => [
                 14.4,
@@ -8433,6 +8685,7 @@ return [
                 'teutonic-order-state',
                 'kingdom-of-poland',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28802174',
             'map_bounds' => '19,53.2,22,56.2',
             'map_coordinates' => [
                 20.5,
@@ -8465,6 +8718,7 @@ return [
                 'teutonic-order-state',
                 'kingdom-of-sweden',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q33698',
             'map_bounds' => '23.392681,55.392681,26.607319,58.607319',
             'map_coordinates' => [
                 25,
@@ -8497,6 +8751,7 @@ return [
                 'kingdom-of-navarre',
                 'kingdom-of-france',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q200262',
             'map_bounds' => '-1.365251,45.234749,5.965251,52.565251',
             'map_coordinates' => [
                 2.3,
@@ -8531,6 +8786,7 @@ return [
                 'viking-age-scandinavia',
                 'pskov-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q151536',
             'map_bounds' => '29.026908,56.226908,33.573092,60.773092',
             'map_coordinates' => [
                 31.3,
@@ -8563,6 +8819,7 @@ return [
                 'novgorod-republic',
                 'principality-of-moscow',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q317078',
             'map_bounds' => '26.8,56.3,29.8,59.3',
             'map_coordinates' => [
                 28.3,
@@ -8595,6 +8852,7 @@ return [
                 'ottoman-empire',
                 'kingdom-of-naples',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q669241',
             'map_bounds' => '18.1,40.3,21.1,43.3',
             'map_coordinates' => [
                 19.6,
@@ -8628,6 +8886,7 @@ return [
                 'kingdom-of-hungary',
                 'ottoman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2980623',
             'map_bounds' => '16,42.3,19,45.3',
             'map_coordinates' => [
                 17.5,
@@ -8660,6 +8919,7 @@ return [
                 'duchy-of-milan',
                 'holy-roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q426025',
             'map_bounds' => '6.2,43.6,9.2,46.6',
             'map_coordinates' => [
                 7.7,
@@ -8692,6 +8952,7 @@ return [
                 'kingdom-of-england',
                 'kingdom-of-france',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q538677',
             'map_bounds' => '-3.437111,43.562889,4.437111,51.437111',
             'map_coordinates' => [
                 0.5,
@@ -8725,6 +8986,7 @@ return [
                 'ayyubid-sultanate',
                 'byzantine-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q55502',
             'map_bounds' => '33.7,30.3,36.7,33.3',
             'map_coordinates' => [
                 35.2,
@@ -8757,6 +9019,7 @@ return [
                 'kingdom-of-denmark',
                 'hanseatic-league',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q216630',
             'map_bounds' => '9.592981,52.692981,15.607019,58.707019',
             'map_coordinates' => [
                 12.6,
@@ -8788,6 +9051,7 @@ return [
             'relations' => [
                 'mycenaean-greece',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q134178',
             'map_bounds' => '23.645163,33.665163,26.694837,36.714837',
             'map_coordinates' => [
                 25.17,
@@ -8820,6 +9084,7 @@ return [
                 'minoan-civilization',
                 'hittite-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q181264',
             'map_bounds' => '21.142681,36.112681,24.357319,39.327319',
             'map_coordinates' => [
                 22.75,
@@ -8859,6 +9124,7 @@ return [
                 'illyrian-kingdom',
                 'league-of-corinth',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83958',
             'map_bounds' => '19.826908,38.376908,24.373092,42.923092',
             'map_coordinates' => [
                 22.1,
@@ -8898,6 +9164,7 @@ return [
                 'thessalian-league',
                 'league-of-corinth',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1524',
             'map_bounds' => '22.23,36.47,25.23,39.47',
             'map_coordinates' => [
                 23.73,
@@ -8936,6 +9203,7 @@ return [
                 'achaean-league',
                 'league-of-corinth',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5690',
             'map_bounds' => '20.93,35.57,23.93,38.57',
             'map_coordinates' => [
                 22.43,
@@ -8969,6 +9237,7 @@ return [
                 'peloponnesian-league',
                 'roman-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q103011',
             'map_bounds' => '21.43,36.44,24.43,39.44',
             'map_coordinates' => [
                 22.93,
@@ -9002,6 +9271,7 @@ return [
                 'sparta',
                 'kingdom-of-macedon',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5760',
             'map_bounds' => '21.82,36.82,24.82,39.82',
             'map_coordinates' => [
                 23.32,
@@ -9034,6 +9304,7 @@ return [
                 'magna-graecia',
                 'acragas',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q13670',
             'map_bounds' => '13.79,35.56,16.79,38.56',
             'map_coordinates' => [
                 15.29,
@@ -9065,6 +9336,7 @@ return [
                 'delian-league',
                 'kingdom-of-bithynia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q169460',
             'map_bounds' => '25.78,36,28.78,39',
             'map_coordinates' => [
                 27.28,
@@ -9097,6 +9369,7 @@ return [
                 'sparta',
                 'achaean-league',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q218956',
             'map_bounds' => '21.22,36.13,24.22,39.13',
             'map_coordinates' => [
                 22.72,
@@ -9128,6 +9401,7 @@ return [
                 'delian-league',
                 'kingdom-of-pergamon',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q22254',
             'map_bounds' => '26.72,34.94,29.72,37.94',
             'map_coordinates' => [
                 28.22,
@@ -9159,6 +9433,7 @@ return [
             'relations' => [
                 'roman-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q449855',
             'map_bounds' => '3.87,41.8,6.87,44.8',
             'map_coordinates' => [
                 5.37,
@@ -9192,6 +9467,7 @@ return [
                 'carthage',
                 'magna-graecia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q238903',
             'map_bounds' => '12.09,35.79,15.09,38.79',
             'map_coordinates' => [
                 13.59,
@@ -9223,6 +9499,7 @@ return [
                 'ptolemaic-kingdom',
                 'numidia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q44112',
             'map_bounds' => '20.36,31.32,23.36,34.32',
             'map_coordinates' => [
                 21.86,
@@ -9258,6 +9535,7 @@ return [
                 'miletus',
                 'rhodes',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q193235',
             'map_bounds' => '20.515362,34.755362,26.944638,41.184638',
             'map_coordinates' => [
                 23.73,
@@ -9291,6 +9569,7 @@ return [
                 'roman-republic',
                 'aetolian-league',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q244796',
             'map_bounds' => '20.55,36.54,23.55,39.54',
             'map_coordinates' => [
                 22.05,
@@ -9323,6 +9602,7 @@ return [
                 'antigonid-macedonia',
                 'acarnanian-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q245273',
             'map_bounds' => '19.97,37.08,22.97,40.08',
             'map_coordinates' => [
                 21.47,
@@ -9356,6 +9636,7 @@ return [
                 'corinth',
                 'delian-league',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q208742',
             'map_bounds' => '20.822681,35.462681,24.037319,38.677319',
             'map_coordinates' => [
                 22.43,
@@ -9391,6 +9672,7 @@ return [
                 'achaemenid-empire',
                 'league-of-corinth',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q13405524',
             'map_bounds' => '32.608666,20.728666,56.231334,44.351334',
             'map_coordinates' => [
                 44.42,
@@ -9432,6 +9714,7 @@ return [
                 'kingdom-of-armenia',
                 'maurya-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q93180',
             'map_bounds' => '27.356351,27.396351,44.963649,45.003649',
             'map_coordinates' => [
                 36.16,
@@ -9466,6 +9749,7 @@ return [
                 'lycian-league',
                 'galatia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2022162',
             'map_bounds' => '25.68,37.62,28.68,40.62',
             'map_coordinates' => [
                 27.18,
@@ -9500,6 +9784,7 @@ return [
                 'kingdom-of-cappadocia',
                 'kingdom-of-armenia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7380487',
             'map_bounds' => '34.34,39.15,37.34,42.15',
             'map_coordinates' => [
                 35.84,
@@ -9532,6 +9817,7 @@ return [
                 'roman-republic',
                 'acarnanian-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q11266977',
             'map_bounds' => '19.35,38.16,22.35,41.16',
             'map_coordinates' => [
                 20.85,
@@ -9565,6 +9851,7 @@ return [
                 'aetolian-league',
                 'roman-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q237325',
             'map_bounds' => '19.316042,37.866042,24.883958,43.433958',
             'map_coordinates' => [
                 22.1,
@@ -9596,6 +9883,7 @@ return [
                 'athens',
                 'roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q321371',
             'map_bounds' => '34.97,43.86,37.97,46.86',
             'map_coordinates' => [
                 36.47,
@@ -9629,6 +9917,7 @@ return [
                 'etruscan-civilization',
                 'latin-league',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q201038',
             'map_bounds' => '10.99,40.4,13.99,43.4',
             'map_coordinates' => [
                 12.49,
@@ -9676,6 +9965,7 @@ return [
                 'kingdom-of-cappadocia',
                 'kingdom-of-armenia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q17167',
             'map_bounds' => '5.301851,34.711851,19.678149,49.088149',
             'map_coordinates' => [
                 12.49,
@@ -9717,6 +10007,7 @@ return [
                 'dacia',
                 'ptolemaic-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2277',
             'map_bounds' => '1.124538,30.534538,23.855462,53.265462',
             'map_coordinates' => [
                 12.49,
@@ -9752,6 +10043,7 @@ return [
                 'ostrogothic-kingdom',
                 'frankish-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q42834',
             'map_bounds' => '4.691851,37.231851,19.068149,51.608149',
             'map_coordinates' => [
                 11.88,
@@ -9806,6 +10098,7 @@ return [
                 'kingdom-of-jerusalem',
                 'aksum-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12544',
             'map_bounds' => '19.460972,31.500972,38.479028,50.519028',
             'map_coordinates' => [
                 28.97,
@@ -9841,6 +10134,7 @@ return [
                 'acragas',
                 'magna-graecia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6343',
             'map_bounds' => '5.237211,31.767211,15.402789,41.932789',
             'map_coordinates' => [
                 10.32,
@@ -9874,6 +10168,7 @@ return [
                 'roman-kingdom',
                 'magna-graecia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q35726',
             'map_bounds' => '10.142681,40.652681,13.357319,43.867319',
             'map_coordinates' => [
                 11.75,
@@ -9908,6 +10203,7 @@ return [
                 'syracuse',
                 'acragas',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q184313',
             'map_bounds' => '14.846908,36.806908,19.393092,41.353092',
             'map_coordinates' => [
                 17.12,
@@ -9941,6 +10237,7 @@ return [
                 'latin-league',
                 'magna-graecia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2454677',
             'map_bounds' => '13,39.85,16,42.85',
             'map_coordinates' => [
                 14.5,
@@ -9973,6 +10270,7 @@ return [
                 'roman-republic',
                 'samnite-confederation',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q874283',
             'map_bounds' => '11.23,40.22,14.23,43.22',
             'map_coordinates' => [
                 12.73,
@@ -10006,6 +10304,7 @@ return [
                 'cyrene',
                 'kingdom-of-mauretania',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1184302',
             'map_bounds' => '2.682889,32.422889,10.557111,40.297111',
             'map_coordinates' => [
                 6.62,
@@ -10037,6 +10336,7 @@ return [
                 'numidia',
                 'roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q31723',
             'map_bounds' => '-0.583958,33.816042,4.983958,39.383958',
             'map_coordinates' => [
                 2.2,
@@ -10068,6 +10368,7 @@ return [
                 'kingdom-of-macedon',
                 'roman-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q870517',
             'map_bounds' => '23.361444,40.231444,27.298556,44.168556',
             'map_coordinates' => [
                 25.33,
@@ -10100,6 +10401,7 @@ return [
                 'kingdom-of-pergamon',
                 'roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1485014',
             'map_bounds' => '27.62,34.83,30.62,37.83',
             'map_coordinates' => [
                 29.12,
@@ -10131,6 +10433,7 @@ return [
                 'kingdom-of-macedon',
                 'roman-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q35976',
             'map_bounds' => '17.902681,40.462681,21.117319,43.677319',
             'map_coordinates' => [
                 19.51,
@@ -10164,6 +10467,7 @@ return [
                 'roman-republic',
                 'miletus',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3762571',
             'map_bounds' => '28.42,39.26,31.42,42.26',
             'map_coordinates' => [
                 29.92,
@@ -10196,6 +10500,7 @@ return [
                 'kingdom-of-pontus',
                 'roman-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q29654286',
             'map_bounds' => '33.872681,37.122681,37.087319,40.337319',
             'map_coordinates' => [
                 35.48,
@@ -10227,6 +10532,7 @@ return [
                 'seleucid-empire',
                 'roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q332137',
             'map_bounds' => '37.24,36.48,40.24,39.48',
             'map_coordinates' => [
                 38.74,
@@ -10258,6 +10564,7 @@ return [
                 'seleucid-empire',
                 'kingdom-of-pergamon',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q26847',
             'map_bounds' => '31.35,38.42,34.35,41.42',
             'map_coordinates' => [
                 32.85,
@@ -10289,6 +10596,7 @@ return [
             'relations' => [
                 'roman-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q27460',
             'map_bounds' => '21.371444,43.661444,25.308556,47.598556',
             'map_coordinates' => [
                 23.34,
@@ -10320,6 +10628,7 @@ return [
                 'kingdom-of-macedon',
                 'athens',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2042616',
             'map_bounds' => '21.85,38.78,24.85,41.78',
             'map_coordinates' => [
                 23.35,
@@ -10352,6 +10661,7 @@ return [
                 'kingdom-of-pontus',
                 'roman-republic',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q208404',
             'map_bounds' => '41.305362,36.865362,47.734638,43.294638',
             'map_coordinates' => [
                 44.52,
@@ -10383,6 +10693,7 @@ return [
                 'kingdom-of-macedon',
                 'athens',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2992813',
             'map_bounds' => '20.91,38.14,23.91,41.14',
             'map_coordinates' => [
                 22.41,
@@ -10416,6 +10727,7 @@ return [
                 'sparta',
                 'empire-of-alexander-the-great',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q332337',
             'map_bounds' => '17.362084,32.372084,28.497916,43.507916',
             'map_coordinates' => [
                 22.93,
@@ -10447,6 +10759,7 @@ return [
                 'aetolian-league',
                 'kingdom-of-epirus',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q24915809',
             'map_bounds' => '19.88,37.29,22.88,40.29',
             'map_coordinates' => [
                 21.38,
@@ -10482,6 +10795,7 @@ return [
                 'nippur',
                 'dilmun',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q716742',
             'map_bounds' => '44.5,29.5,47.5,32.5',
             'map_coordinates' => [
                 46,
@@ -10517,6 +10831,7 @@ return [
                 'lagash',
                 'old-elamite-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4461035',
             'map_bounds' => '39.853815,28.553815,48.946185,37.646185',
             'map_coordinates' => [
                 44.4,
@@ -10555,6 +10870,7 @@ return [
                 'eshnunna',
                 'dilmun',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q723587',
             'map_bounds' => '43.558605,28.418605,48.641395,33.501395',
             'map_coordinates' => [
                 46.1,
@@ -10586,6 +10902,7 @@ return [
                 'akkadian-empire',
                 'third-dynasty-of-ur',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1846086',
             'map_bounds' => '43.392681,32.892681,46.607319,36.107319',
             'map_coordinates' => [
                 45,
@@ -10620,6 +10937,7 @@ return [
                 'eshnunna',
                 'mari',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q733897',
             'map_bounds' => '39.873815,27.993815,48.966185,37.086185',
             'map_coordinates' => [
                 44.42,
@@ -10652,6 +10970,7 @@ return [
                 'old-babylonian-empire',
                 'middle-assyrian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q16630263',
             'map_bounds' => '41.205362,29.325362,47.634638,35.754638',
             'map_coordinates' => [
                 44.42,
@@ -10686,6 +11005,7 @@ return [
                 'old-assyrian-period',
                 'city-of-ashur',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q12642600',
             'map_bounds' => '39.535925,32.745925,46.724075,39.934075',
             'map_coordinates' => [
                 43.13,
@@ -10725,6 +11045,7 @@ return [
                 'kingdom-of-bit-adini',
                 'neo-hittite-kingdoms',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10914393',
             'map_bounds' => '37.145963,30.345963,49.174037,42.374037',
             'map_coordinates' => [
                 43.16,
@@ -10759,6 +11080,7 @@ return [
                 'achaemenid-empire',
                 'neo-elamite-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q624887',
             'map_bounds' => '39.337211,27.457211,49.502789,37.622789',
             'map_coordinates' => [
                 44.42,
@@ -10790,6 +11112,7 @@ return [
                 'early-dynastic-sumer',
                 'akkadian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q207330',
             'map_bounds' => '44.97,29.91,47.97,32.91',
             'map_coordinates' => [
                 46.47,
@@ -10821,6 +11144,7 @@ return [
                 'early-dynastic-sumer',
                 'third-dynasty-of-ur',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5699',
             'map_bounds' => '44.6,29.46,47.6,32.46',
             'map_coordinates' => [
                 46.1,
@@ -10851,6 +11175,7 @@ return [
             'relations' => [
                 'early-dynastic-sumer',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q168518',
             'map_bounds' => '44.14,29.82,47.14,32.82',
             'map_coordinates' => [
                 45.64,
@@ -10882,6 +11207,7 @@ return [
             'relations' => [
                 'early-dynastic-sumer',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q188395',
             'map_bounds' => '43.73,30.62,46.73,33.62',
             'map_coordinates' => [
                 45.23,
@@ -10915,6 +11241,7 @@ return [
                 'kingdom-of-yamhad',
                 'old-babylonian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q244762',
             'map_bounds' => '39.39,33.05,42.39,36.05',
             'map_coordinates' => [
                 40.89,
@@ -10948,6 +11275,7 @@ return [
                 'kingdom-of-yamhad',
                 'ugarit',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5743',
             'map_bounds' => '35.3,34.3,38.3,37.3',
             'map_coordinates' => [
                 36.8,
@@ -10981,6 +11309,7 @@ return [
                 'middle-assyrian-empire',
                 'hurrian-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q178665',
             'map_bounds' => '35.453815,31.953815,44.546185,41.046185',
             'map_coordinates' => [
                 40,
@@ -11019,6 +11348,7 @@ return [
                 '19th-dynasty-of-egypt',
                 'kingdom-of-yamhad',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5406',
             'map_bounds' => '29.042084,34.452084,40.177916,45.587916',
             'map_coordinates' => [
                 34.61,
@@ -11050,6 +11380,7 @@ return [
             'relations' => [
                 'neo-assyrian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q185068',
             'map_bounds' => '41.096908,36.186908,45.643092,40.733092',
             'map_coordinates' => [
                 43.37,
@@ -11080,6 +11411,7 @@ return [
             'relations' => [
                 'phrygian-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q620765',
             'map_bounds' => '25.446042,35.676042,31.013958,41.243958',
             'map_coordinates' => [
                 28.23,
@@ -11114,6 +11446,7 @@ return [
                 'kingdom-of-lydia',
                 'neo-hittite-kingdoms',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q36751',
             'map_bounds' => '29.716908,37.376908,34.263092,41.923092',
             'map_coordinates' => [
                 31.99,
@@ -11146,6 +11479,7 @@ return [
                 'canaan',
                 'kingdom-of-aram-damascus',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q41642',
             'map_bounds' => '33.87,32.06,36.87,35.06',
             'map_coordinates' => [
                 35.37,
@@ -11180,6 +11514,7 @@ return [
                 'kingdom-of-aram-damascus',
                 'canaan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q230407',
             'map_bounds' => '33.7,30.77,36.7,33.77',
             'map_coordinates' => [
                 35.2,
@@ -11213,6 +11548,7 @@ return [
                 'neo-babylonian-empire',
                 'nabataean-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q48685',
             'map_bounds' => '33.73,30.27,36.73,33.27',
             'map_coordinates' => [
                 35.23,
@@ -11247,6 +11583,7 @@ return [
                 'hittite-empire',
                 'canaan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q191369',
             'map_bounds' => '34.28,34.1,37.28,37.1',
             'map_coordinates' => [
                 35.78,
@@ -11281,6 +11618,7 @@ return [
                 'neo-assyrian-empire',
                 'phoenicia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q625649',
             'map_bounds' => '34.79,32.01,37.79,35.01',
             'map_coordinates' => [
                 36.29,
@@ -11311,6 +11649,7 @@ return [
             'relations' => [
                 'egyptian-old-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q187979',
             'map_bounds' => '29.75,28.34,32.75,31.34',
             'map_coordinates' => [
                 31.25,
@@ -11343,6 +11682,7 @@ return [
                 'early-dynastic-egypt',
                 'egyptian-middle-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q177819',
             'map_bounds' => '26.047211,24.887211,36.212789,35.052789',
             'map_coordinates' => [
                 31.13,
@@ -11375,6 +11715,7 @@ return [
                 'egyptian-old-kingdom',
                 'egyptian-new-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q191324',
             'map_bounds' => '27.072084,20.152084,38.207916,31.287916',
             'map_coordinates' => [
                 32.64,
@@ -11408,6 +11749,7 @@ return [
                 'third-intermediate-period-of-egypt',
                 'hittite-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q180568',
             'map_bounds' => '25.451851,18.531851,39.828149,32.908149',
             'map_coordinates' => [
                 32.64,
@@ -11440,6 +11782,7 @@ return [
                 'egyptian-new-kingdom',
                 '19th-dynasty-of-egypt',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q146055',
             'map_bounds' => '26.41488,19.49488,38.86512,31.94512',
             'map_coordinates' => [
                 32.64,
@@ -11472,6 +11815,7 @@ return [
                 'third-intermediate-period-of-egypt',
                 'hittite-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q157956',
             'map_bounds' => '27.072084,20.152084,38.207916,31.287916',
             'map_coordinates' => [
                 32.64,
@@ -11505,6 +11849,7 @@ return [
                 '25th-dynasty-of-egypt',
                 '19th-dynasty-of-egypt',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q212728',
             'map_bounds' => '27.162889,27.032889,35.037111,34.907111',
             'map_coordinates' => [
                 31.1,
@@ -11536,6 +11881,7 @@ return [
                 'third-intermediate-period-of-egypt',
                 'ptolemaic-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q621917',
             'map_bounds' => '25.717211,21.737211,35.882789,31.902789',
             'map_coordinates' => [
                 30.8,
@@ -11570,6 +11916,7 @@ return [
                 'cyrene',
                 'empire-of-alexander-the-great',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2320005',
             'map_bounds' => '23.090723,24.370723,36.729277,38.009277',
             'map_coordinates' => [
                 29.91,
@@ -11603,6 +11950,7 @@ return [
                 'kingdom-of-kush',
                 'neo-assyrian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q737648',
             'map_bounds' => '25.59488,12.30488,38.04512,24.75512',
             'map_coordinates' => [
                 31.82,
@@ -11636,6 +11984,7 @@ return [
                 'third-dynasty-of-ur',
                 'neo-elamite-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q29297301',
             'map_bounds' => '45.456042,29.406042,51.023958,34.973958',
             'map_coordinates' => [
                 48.24,
@@ -11668,6 +12017,7 @@ return [
                 'neo-assyrian-empire',
                 'neo-babylonian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q131936319',
             'map_bounds' => '45.966908,29.916908,50.513092,34.463092',
             'map_coordinates' => [
                 48.24,
@@ -11701,6 +12051,7 @@ return [
                 'ethiopian-empire',
                 'funj-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q241790',
             'map_bounds' => '27.447211,10.467211,37.612789,20.632789',
             'map_coordinates' => [
                 32.53,
@@ -11732,6 +12083,7 @@ return [
             'relations' => [
                 'kingdom-of-judah',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q36178',
             'map_bounds' => '33.055961,27.945961,37.824039,32.714039',
             'map_coordinates' => [
                 35.44,
@@ -11764,6 +12116,7 @@ return [
                 'middle-assyrian-empire',
                 'city-of-ashur',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7083403',
             'map_bounds' => '41.652681,33.852681,44.867319,37.067319',
             'map_coordinates' => [
                 43.26,
@@ -11795,6 +12148,7 @@ return [
             'relations' => [
                 'mitanni',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q190394',
             'map_bounds' => '37.216042,34.216042,42.783958,39.783958',
             'map_coordinates' => [
                 40,
@@ -11827,6 +12181,7 @@ return [
                 'ebla',
                 'hittite-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q617218',
             'map_bounds' => '34.886908,33.926908,39.433092,38.473092',
             'map_coordinates' => [
                 37.16,
@@ -11859,6 +12214,7 @@ return [
                 'old-babylonian-empire',
                 'isin',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q375685',
             'map_bounds' => '43.43,32.27,46.43,35.27',
             'map_coordinates' => [
                 44.93,
@@ -11892,6 +12248,7 @@ return [
                 'isin',
                 'old-babylonian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q244746',
             'map_bounds' => '44.35,29.72,47.35,32.72',
             'map_coordinates' => [
                 45.85,
@@ -11924,6 +12281,7 @@ return [
                 'larsa',
                 'eshnunna',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q501259',
             'map_bounds' => '43.78,30.39,46.78,33.39',
             'map_coordinates' => [
                 45.28,
@@ -11955,6 +12313,7 @@ return [
                 'old-assyrian-period',
                 'middle-assyrian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q200200',
             'map_bounds' => '41.76,33.96,44.76,36.96',
             'map_coordinates' => [
                 43.26,
@@ -11987,6 +12346,7 @@ return [
                 'early-dynastic-sumer',
                 'third-dynasty-of-ur',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q112302',
             'map_bounds' => '49,24.5,52,27.5',
             'map_coordinates' => [
                 50.5,
@@ -12019,6 +12379,7 @@ return [
                 'neo-assyrian-empire',
                 'neo-hittite-kingdoms',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q878717',
             'map_bounds' => '36.77,35.33,39.77,38.33',
             'map_coordinates' => [
                 38.27,
@@ -12052,6 +12413,7 @@ return [
                 'kingdom-of-bit-adini',
                 'phrygian-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q770281',
             'map_bounds' => '35.031444,35.031444,38.968556,38.968556',
             'map_coordinates' => [
                 37,
@@ -12084,6 +12446,7 @@ return [
                 'kingdom-of-israel',
                 'ugarit',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q163329',
             'map_bounds' => '33.5,30,36.5,33',
             'map_coordinates' => [
                 35,
@@ -12116,6 +12479,7 @@ return [
                 'maurya-empire',
                 'mahajanapadas',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q36858',
             'map_bounds' => '70.77488,22.77488,83.22512,35.22512',
             'map_coordinates' => [
                 77,
@@ -12149,6 +12513,7 @@ return [
                 'maurya-empire',
                 'nanda-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q846025',
             'map_bounds' => '77.453815,20.453815,86.546185,29.546185',
             'map_coordinates' => [
                 82,
@@ -12181,6 +12546,7 @@ return [
                 'mahajanapadas',
                 'maurya-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q949268',
             'map_bounds' => '80.017211,20.517211,90.182789,30.682789',
             'map_coordinates' => [
                 85.1,
@@ -12220,6 +12586,7 @@ return [
                 'gupta-empire',
                 'anuradhapura-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10578661',
             'map_bounds' => '73.734538,14.234538,96.465462,36.965462',
             'map_coordinates' => [
                 85.1,
@@ -12252,6 +12619,7 @@ return [
                 'maurya-empire',
                 'satavahana-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q651377',
             'map_bounds' => '72.811851,17.611851,87.188149,31.988149',
             'map_coordinates' => [
                 80,
@@ -12284,6 +12652,7 @@ return [
                 'shunga-empire',
                 'kushan-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q103965487',
             'map_bounds' => '73.417211,11.917211,83.582789,22.082789',
             'map_coordinates' => [
                 78.5,
@@ -12318,6 +12687,7 @@ return [
                 'parthian-empire',
                 'greco-bactrian-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q25979',
             'map_bounds' => '60.396351,25.696351,78.003649,43.303649',
             'map_coordinates' => [
                 69.2,
@@ -12351,6 +12721,7 @@ return [
                 'maurya-empire',
                 'harsha-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q11774',
             'map_bounds' => '72.290972,15.890972,91.309028,34.909028',
             'map_coordinates' => [
                 81.8,
@@ -12383,6 +12754,7 @@ return [
                 'gupta-empire',
                 'pala-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q216895',
             'map_bounds' => '71.072854,23.372854,84.327146,36.627146',
             'map_coordinates' => [
                 77.7,
@@ -12416,6 +12788,7 @@ return [
                 'chalukya-kingdom',
                 'chera-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q15104320',
             'map_bounds' => '76.305925,9.305925,83.494075,16.494075',
             'map_coordinates' => [
                 79.9,
@@ -12449,6 +12822,7 @@ return [
                 'rashtrakuta-kingdom',
                 'western-chalukya-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1395011',
             'map_bounds' => '71.162889,11.462889,79.037111,19.337111',
             'map_coordinates' => [
                 75.1,
@@ -12482,6 +12856,7 @@ return [
                 'chola-kingdom',
                 'western-chalukya-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q103963211',
             'map_bounds' => '72.547434,13.047434,81.052566,21.552566',
             'map_coordinates' => [
                 76.8,
@@ -12514,6 +12889,7 @@ return [
                 'harsha-empire',
                 'sena-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q668412',
             'map_bounds' => '82.504729,19.004729,94.095271,30.595271',
             'map_coordinates' => [
                 88.3,
@@ -12551,6 +12927,7 @@ return [
                 'srivijaya-empire',
                 'chera-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q81375',
             'map_bounds' => '69.456086,1.156086,88.743914,20.443914',
             'map_coordinates' => [
                 79.1,
@@ -12582,6 +12959,7 @@ return [
             'relations' => [
                 'pala-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q24861892',
             'map_bounds' => '88.126908,21.426908,92.673092,25.973092',
             'map_coordinates' => [
                 90.4,
@@ -12622,6 +13000,7 @@ return [
                 'hoysala-empire',
                 'kakatiya-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q167639',
             'map_bounds' => '72.905925,11.705925,80.094075,18.894075',
             'map_coordinates' => [
                 76.5,
@@ -12657,6 +13036,7 @@ return [
                 'bengal-sultanate',
                 'bahmani-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q229411',
             'map_bounds' => '68.107631,19.507631,86.292369,37.692369',
             'map_coordinates' => [
                 77.2,
@@ -12701,6 +13081,7 @@ return [
                 'sikh-khalsa-confederacy',
                 'afghan-durrani-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q33296',
             'map_bounds' => '67.034422,18.434422,87.365578,38.765578',
             'map_coordinates' => [
                 77.2,
@@ -12736,6 +13117,7 @@ return [
                 'maratha-empire-under-peshwas',
                 'kingdom-of-mysore',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q18456815',
             'map_bounds' => '65.863405,10.463405,81.936595,26.536595',
             'map_coordinates' => [
                 73.9,
@@ -12770,6 +13152,7 @@ return [
                 'bijapur-sultanate',
                 'golconda-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q374521',
             'map_bounds' => '73.205925,13.705925,80.394075,20.894075',
             'map_coordinates' => [
                 76.8,
@@ -12803,6 +13186,7 @@ return [
                 'chola-kingdom',
                 'polonnaruwa-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1965597',
             'map_bounds' => '78.9,6.8,81.9,9.8',
             'map_coordinates' => [
                 80.4,
@@ -12837,6 +13221,7 @@ return [
                 'kandy-kingdom',
                 'kotte-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q394443',
             'map_bounds' => '79.5,6.4,82.5,9.4',
             'map_coordinates' => [
                 81,
@@ -12869,6 +13254,7 @@ return [
                 'polonnaruwa-kingdom',
                 'kotte-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q203197',
             'map_bounds' => '79.1,5.8,82.1,8.8',
             'map_coordinates' => [
                 80.6,
@@ -12901,6 +13287,7 @@ return [
                 'chenla-kingdom',
                 'khmer-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1208909',
             'map_bounds' => '101.362889,6.862889,109.237111,14.737111',
             'map_coordinates' => [
                 105.3,
@@ -12933,6 +13320,7 @@ return [
                 'funan-kingdom',
                 'khmer-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1057118',
             'map_bounds' => '100.305925,9.805925,107.494075,16.994075',
             'map_coordinates' => [
                 103.9,
@@ -12972,6 +13360,7 @@ return [
                 'srivijaya-empire',
                 'dai-viet-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q201705',
             'map_bounds' => '98.817211,8.317211,108.982789,18.482789',
             'map_coordinates' => [
                 103.9,
@@ -13006,6 +13395,7 @@ return [
                 'dai-viet-kingdom',
                 'l-dynasty-vietnam',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q167027',
             'map_bounds' => '106.026908,13.626908,110.573092,18.173092',
             'map_coordinates' => [
                 108.3,
@@ -13042,6 +13432,7 @@ return [
                 'mon-hanthawaddy-kingdom',
                 'taungoo-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q29317',
             'map_bounds' => '91.490361,17.790361,98.309639,24.609639',
             'map_coordinates' => [
                 94.9,
@@ -13075,6 +13466,7 @@ return [
                 'toungoo-empire',
                 'mon-hanthawaddy-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2500952',
             'map_bounds' => '93.216042,19.116042,98.783958,24.683958',
             'map_coordinates' => [
                 96,
@@ -13110,6 +13502,7 @@ return [
                 'mon-hanthawaddy-kingdom',
                 'taungoo-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1193412',
             'map_bounds' => '90.27488,12.67488,102.72512,25.12512',
             'map_coordinates' => [
                 96.5,
@@ -13143,6 +13536,7 @@ return [
                 'sukhothai-kingdom',
                 'pyu-city-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1268307',
             'map_bounds' => '98.226908,11.726908,102.773092,16.273092',
             'map_coordinates' => [
                 100.5,
@@ -13176,6 +13570,7 @@ return [
                 'ayutthaya-kingdom',
                 'lan-na-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q863279',
             'map_bounds' => '97.526908,14.726908,102.073092,19.273092',
             'map_coordinates' => [
                 99.8,
@@ -13212,6 +13607,7 @@ return [
                 'bamar-konbaung-dynasty',
                 'lan-na-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q841364',
             'map_bounds' => '95.517211,9.317211,105.682789,19.482789',
             'map_coordinates' => [
                 100.6,
@@ -13244,6 +13640,7 @@ return [
                 'ayutthaya-kingdom',
                 'khmer-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q853477',
             'map_bounds' => '99.385362,14.785362,105.814638,21.214638',
             'map_coordinates' => [
                 102.6,
@@ -13280,6 +13677,7 @@ return [
                 'sailendra-dynasty',
                 'malacca-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q234197',
             'map_bounds' => '97.511851,-10.088149,111.888149,4.288149',
             'map_coordinates' => [
                 104.7,
@@ -13314,6 +13712,7 @@ return [
                 'singhasari-kingdom',
                 'mataram-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1148477',
             'map_bounds' => '106.605925,-11.194075,113.794075,-4.005925',
             'map_coordinates' => [
                 110.2,
@@ -13352,6 +13751,7 @@ return [
                 'sulu-sultanate',
                 'aceh-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q49326',
             'map_bounds' => '103.596351,-16.503649,121.203649,1.103649',
             'map_coordinates' => [
                 112.4,
@@ -13391,6 +13791,7 @@ return [
                 'aceh-sultanate',
                 'swahili-city-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q61089',
             'map_bounds' => '99.926908,-0.073092,104.473092,4.473092',
             'map_coordinates' => [
                 102.2,
@@ -13425,6 +13826,7 @@ return [
                 'i-c-vi-t',
                 'l-dynasty-vietnam',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q430309',
             'map_bounds' => '102.88016,18.08016,108.71984,23.91984',
             'map_coordinates' => [
                 105.8,
@@ -13456,6 +13858,7 @@ return [
             'relations' => [
                 'dai-viet-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10841085',
             'map_bounds' => '103.931444,18.431444,107.868556,22.368556',
             'map_coordinates' => [
                 105.9,
@@ -13488,6 +13891,7 @@ return [
                 'majapahit-empire',
                 'sailendra-dynasty',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2060657',
             'map_bounds' => '109.592981,-10.907019,115.607019,-4.892981',
             'map_coordinates' => [
                 112.6,
@@ -13520,6 +13924,7 @@ return [
                 'sailendra-dynasty',
                 'majapahit-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q402580',
             'map_bounds' => '108.126908,-10.073092,112.673092,-5.526908',
             'map_coordinates' => [
                 110.4,
@@ -13553,6 +13958,7 @@ return [
                 'majapahit-empire',
                 'sultanate-of-brunei',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q352027',
             'map_bounds' => '119.23927,4.23927,122.76073,7.76073',
             'map_coordinates' => [
                 121,
@@ -13585,6 +13991,7 @@ return [
                 'malacca-sultanate',
                 'sulu-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q887803',
             'map_bounds' => '112.726908,2.626908,117.273092,7.173092',
             'map_coordinates' => [
                 115,
@@ -13617,6 +14024,7 @@ return [
                 'malacca-sultanate',
                 'majapahit-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1061057',
             'map_bounds' => '92.758605,2.958605,97.841395,8.041395',
             'map_coordinates' => [
                 95.3,
@@ -13649,6 +14057,7 @@ return [
                 'toungoo-empire',
                 'ayutthaya-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1062422',
             'map_bounds' => '90.917211,16.817211,101.082789,26.982789',
             'map_coordinates' => [
                 96,
@@ -13683,6 +14092,7 @@ return [
                 'hoysala-empire',
                 'kakatiya-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q14624218',
             'map_bounds' => '71.153815,11.353815,80.246185,20.446185',
             'map_coordinates' => [
                 75.7,
@@ -13715,6 +14125,7 @@ return [
                 'western-chalukya-empire',
                 'vijayanagara-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q466581',
             'map_bounds' => '73.092981,9.292981,79.107019,15.307019',
             'map_coordinates' => [
                 76.1,
@@ -13747,6 +14158,7 @@ return [
                 'western-chalukya-empire',
                 'vijayanagara-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2086556',
             'map_bounds' => '76.385362,14.685362,82.814638,21.114638',
             'map_coordinates' => [
                 79.6,
@@ -13779,6 +14191,7 @@ return [
                 'polonnaruwa-kingdom',
                 'kandy-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q41963',
             'map_bounds' => '78.4,5.4,81.4,8.4',
             'map_coordinates' => [
                 79.9,
@@ -13811,6 +14224,7 @@ return [
                 'pagan-kingdom',
                 'dvaravati-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1627675',
             'map_bounds' => '93.426908,17.426908,97.973092,21.973092',
             'map_coordinates' => [
                 95.7,
@@ -13844,6 +14258,7 @@ return [
                 'ava-kingdom',
                 'toungoo-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1572529',
             'map_bounds' => '94.531444,15.331444,98.468556,19.268556',
             'map_coordinates' => [
                 96.5,
@@ -13876,6 +14291,7 @@ return [
                 'pagan-kingdom',
                 'toungoo-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q519718',
             'map_bounds' => '95,17.4,98,20.4',
             'map_coordinates' => [
                 96.5,
@@ -13908,6 +14324,7 @@ return [
                 'dai-viet-kingdom',
                 'champa-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q878276',
             'map_bounds' => '102.970023,17.170023,108.629977,22.829977',
             'map_coordinates' => [
                 105.8,
@@ -13940,6 +14357,7 @@ return [
                 'sukhothai-kingdom',
                 'ayutthaya-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1059707',
             'map_bounds' => '97.031444,16.831444,100.968556,20.768556',
             'map_coordinates' => [
                 99,
@@ -13972,6 +14390,7 @@ return [
                 'chola-kingdom',
                 'pallava-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q877155',
             'map_bounds' => '74.592681,8.892681,77.807319,12.107319',
             'map_coordinates' => [
                 76.2,
@@ -14006,6 +14425,7 @@ return [
                 'zagwe-dynasty',
                 'adal-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q139377',
             'map_bounds' => '33.017269,8.417269,44.382731,19.782731',
             'map_coordinates' => [
                 38.7,
@@ -14038,6 +14458,7 @@ return [
                 'aksum-empire',
                 'ethiopian-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q140446',
             'map_bounds' => '35.785362,8.785362,42.214638,15.214638',
             'map_coordinates' => [
                 39,
@@ -14072,6 +14493,7 @@ return [
                 'adal-sultanate',
                 'funj-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q207521',
             'map_bounds' => '33.081506,3.381506,44.318494,14.618494',
             'map_coordinates' => [
                 38.7,
@@ -14104,6 +14526,7 @@ return [
                 'mali-empire',
                 'kanem-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q206789',
             'map_bounds' => '-14.546185,10.453815,-5.453815,19.546185',
             'map_coordinates' => [
                 -10,
@@ -14140,6 +14563,7 @@ return [
                 'kingdom-of-benin',
                 'mossi-kingdoms',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q184536',
             'map_bounds' => '-13.659954,6.340046,-2.340046,17.659954',
             'map_coordinates' => [
                 -8,
@@ -14176,6 +14600,7 @@ return [
                 'oyo-empire',
                 'mossi-kingdoms',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q202687',
             'map_bounds' => '-6.014037,9.685963,6.014037,21.714037',
             'map_coordinates' => [
                 0,
@@ -14211,6 +14636,7 @@ return [
                 'darfur-sultanate',
                 'kanem-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1139762',
             'map_bounds' => '10.447434,9.047434,18.952566,17.552566',
             'map_coordinates' => [
                 14.7,
@@ -14244,6 +14670,7 @@ return [
                 'kanem-bornu-empire',
                 'sokoto-caliphate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q56475',
             'map_bounds' => '5.716042,9.216042,11.283958,14.783958',
             'map_coordinates' => [
                 8.5,
@@ -14278,6 +14705,7 @@ return [
                 'kilwa-sultanate',
                 'rozvi-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q596092',
             'map_bounds' => '26.078043,-25.121957,35.721957,-15.478043',
             'map_coordinates' => [
                 30.9,
@@ -14310,6 +14738,7 @@ return [
                 'kingdom-of-zimbabwe',
                 'rozvi-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q854468',
             'map_bounds' => '26.598176,-20.901824,35.401824,-12.098176',
             'map_coordinates' => [
                 31,
@@ -14346,6 +14775,7 @@ return [
                 'kilwa-sultanate',
                 'ajuran-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2739014',
             'map_bounds' => '38.092681,-9.607319,41.307319,-6.392681',
             'map_coordinates' => [
                 39.7,
@@ -14382,6 +14812,7 @@ return [
                 'kingdom-of-kuba',
                 'lunda-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q796583',
             'map_bounds' => '11.516042,-8.783958,17.083958,-3.216042',
             'map_coordinates' => [
                 14.3,
@@ -14417,6 +14848,7 @@ return [
                 'ife-kingdom',
                 'kingdom-of-nri',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q171203',
             'map_bounds' => '3.631444,4.331444,7.568556,8.268556',
             'map_coordinates' => [
                 5.6,
@@ -14453,6 +14885,7 @@ return [
                 'dahomey-kingdom',
                 'ife-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q849623',
             'map_bounds' => '2.031444,6.031444,5.968556,9.968556',
             'map_coordinates' => [
                 4,
@@ -14486,6 +14919,7 @@ return [
                 'oyo-empire',
                 'dahomey-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q722071',
             'map_bounds' => '-4.141395,4.158605,0.941395,9.241395',
             'map_coordinates' => [
                 -1.6,
@@ -14519,6 +14953,7 @@ return [
                 'ashanti-empire',
                 'dahomey-kingdom-early-modern',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q468814',
             'map_bounds' => '0.7,5.7,3.7,8.7',
             'map_coordinates' => [
                 2.2,
@@ -14550,6 +14985,7 @@ return [
             'relations' => [
                 'kingdom-of-kongo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q729768',
             'map_bounds' => '27.916042,-31.083958,33.483958,-25.516042',
             'map_coordinates' => [
                 30.7,
@@ -14582,6 +15018,7 @@ return [
                 'kingdom-of-kongo',
                 'bunyoro-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q473748',
             'map_bounds' => '31.1,-1.2,34.1,1.8',
             'map_coordinates' => [
                 32.6,
@@ -14615,6 +15052,7 @@ return [
                 'kingdom-of-kuba',
                 'lunda-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1768252',
             'map_bounds' => '23.785362,-11.214638,30.214638,-4.785362',
             'map_coordinates' => [
                 27,
@@ -14647,6 +15085,7 @@ return [
                 'kingdom-of-luba',
                 'kingdom-of-kongo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q209327',
             'map_bounds' => '21,-6.5,24,-3.5',
             'map_coordinates' => [
                 22.5,
@@ -14680,6 +15119,7 @@ return [
                 'aksum-empire',
                 'ajuran-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2365048',
             'map_bounds' => '38.605925,6.005925,45.794075,13.194075',
             'map_coordinates' => [
                 42.2,
@@ -14713,6 +15153,7 @@ return [
                 'oyo-empire',
                 'kingdom-of-nri',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q33606',
             'map_bounds' => '3.1,6,6.1,9',
             'map_coordinates' => [
                 4.6,
@@ -14745,6 +15186,7 @@ return [
                 'songhai-empire',
                 'mali-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q862522',
             'map_bounds' => '-3.773092,10.126908,0.773092,14.673092',
             'map_coordinates' => [
                 -1.5,
@@ -14777,6 +15219,7 @@ return [
                 'kingdom-of-benin',
                 'ife-kingdom',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q145749',
             'map_bounds' => '5.4,4.5,8.4,7.5',
             'map_coordinates' => [
                 6.9,
@@ -14810,6 +15253,7 @@ return [
                 'ethiopian-empire',
                 'darfur-sultanate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1475713',
             'map_bounds' => '29.462889,10.562889,37.337111,18.437111',
             'map_coordinates' => [
                 33.4,
@@ -14842,6 +15286,7 @@ return [
                 'funj-sultanate',
                 'kanem-bornu-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q46733',
             'map_bounds' => '21.442048,9.442048,28.557952,16.557952',
             'map_coordinates' => [
                 25,
@@ -14875,6 +15320,7 @@ return [
                 'kingdom-of-zimbabwe',
                 'omani-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3107156',
             'map_bounds' => '38,-10.4,41,-7.4',
             'map_coordinates' => [
                 39.5,
@@ -14907,6 +15353,7 @@ return [
                 'adal-sultanate',
                 'swahili-city-states',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q862532',
             'map_bounds' => '40.917211,-0.082789,51.082789,10.082789',
             'map_coordinates' => [
                 46,
@@ -14939,6 +15386,7 @@ return [
                 'kingdom-of-mutapa',
                 'kingdom-of-zimbabwe',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q986822',
             'map_bounds' => '27.458605,-21.541395,32.541395,-16.458605',
             'map_coordinates' => [
                 30,
@@ -14971,6 +15419,7 @@ return [
                 'kingdom-of-luba',
                 'kingdom-of-kongo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q33607',
             'map_bounds' => '17.747434,-14.252566,26.252566,-5.747434',
             'map_coordinates' => [
                 22,
@@ -15002,6 +15451,7 @@ return [
             'relations' => [
                 'kingdom-of-buganda',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q889897',
             'map_bounds' => '29.892681,-0.107319,33.107319,3.107319',
             'map_coordinates' => [
                 31.5,
@@ -15034,6 +15484,7 @@ return [
                 'kanem-bornu-empire',
                 'ghana-empire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1537016',
             'map_bounds' => '11.062889,10.062889,18.937111,17.937111',
             'map_coordinates' => [
                 15,
@@ -15068,6 +15519,7 @@ return [
                 'neo-babylonian-empire',
                 'neo-hittite-kingdoms',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q620765',
             'map_bounds' => '26.0,37.0,38.0,42.0',
             'map_coordinates' => [
                 32,
@@ -15102,6 +15554,7 @@ return [
                 'hunnic-empire',
                 'khazar-khaganate',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q28411',
             'map_bounds' => '14.0,44.0,24.0,50.0',
             'map_coordinates' => [
                 19,
@@ -15137,6 +15590,7 @@ return [
                 'abbasid-caliphate',
                 'kievan-rus',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2090473',
             'map_bounds' => '35.0,43.0,55.0,52.0',
             'map_coordinates' => [
                 48,

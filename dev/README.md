@@ -6,10 +6,11 @@ Build tools for the SampleData module. None of these files are shipped with the 
 
 | Path | Description |
 |------|-------------|
+| `build-identifiers.php` | Looks up Wikidata entity URIs and injects them as `dcterms:identifier` values |
 | `build-media.php` | Fetches and downloads media files for a dataset from Wikidata/Wikimedia Commons |
 | `config.php` | Local config — Wikimedia API credentials (**gitignored**) |
 | `config.php.dist` | Template for `config.php` |
-| `strategies/` | Per-dataset overrides for `build-media.php` |
+| `strategies/` | Per-dataset overrides for `build-identifiers.php` and `build-media.php` |
 
 ---
 
@@ -27,6 +28,42 @@ to get an access token. The user agent string should identify your app,
 e.g. `YourName/SampleData-build (your@email.example)`.
 
 `config.php` is gitignored. Do not commit it.
+
+---
+
+## build-identifiers.php
+
+Looks up a Wikidata entity URI for each item in a dataset that does not already
+have a `dcterms:identifier` value, and injects it into the dataset PHP file.
+The URI format is `https://www.wikidata.org/entity/QXXX`.
+
+```
+php dev/build-identifiers.php <dataset>           # look up and inject
+php dev/build-identifiers.php <dataset> --dry-run # report only, no writes
+```
+
+Re-running is safe — only items without an existing `dcterms:identifier` are
+processed.
+
+### How it searches
+
+Each item goes through a series of passes until a match is found:
+
+1. **QID overrides** — hard-coded QIDs from the dataset's strategy file
+   (see **Strategies** below).
+2. **SPARQL batch** — matches items by `dcterms:title` label against Wikidata
+   `rdfs:label`. Also tries lowercase variants and paren-stripped variants
+   (e.g. "Madame X (Madame Pierre Gautreau)" → "Madame X"). If the dataset
+   strategy file includes a `strip_suffixes` pass, suffix-stripped variants are
+   tried as well (e.g. "Olmec Civilization" → "Olmec").
+3. **Entity search fallback** — calls `wbsearchentities` for any items still
+   unmatched.
+
+### Rate limits
+
+SPARQL requests are spaced 2 seconds apart; entity searches 0.5 seconds. If a
+429 is returned the script stops and reports how far it got — re-run to
+continue from where it left off (already-injected items are skipped).
 
 ---
 
@@ -75,8 +112,71 @@ Each dataset can have a strategy file at `dev/strategies/<dataset>.php`.
 It returns an array of passes that extend or override the default search
 behaviour.
 
-Passes with `'type' => 'override'` run **before** the default passes; all
-others run after.
+Passes with `'type' => 'override'` are applied before the default search
+passes. All other pass types either configure search behaviour or control
+output, and are applied at setup time.
+
+### identifier_skip
+
+Mark items as having no Wikidata entity, so `build-identifiers.php` does not
+attempt to match them. Without this, a short or common-word title may match an
+unrelated entity.
+
+```php
+['type' => 'identifier_skip', 'ids' => [
+    'item-id', // reason: no Wikidata entity; title matches unrelated entities
+]],
+```
+
+This pass is ignored by `build-media.php`.
+
+### use_alt_labels
+
+Tell `build-identifiers.php` to also match items against Wikidata `skos:altLabel`
+values, in addition to the default `rdfs:label` match. Without this pass, only
+`rdfs:label` is searched (safe default).
+
+```php
+['type' => 'use_alt_labels'],
+```
+
+Useful when dataset titles differ from Wikidata's canonical label but appear as
+an alias (e.g. "Chimú Kingdom" is an alias of the "Chimor" entity). Avoid on
+datasets with short or common-word titles — those can match unrelated entities
+that happen to share an alias. This pass is ignored by `build-media.php`.
+
+### strip_suffixes
+
+Tell `build-identifiers.php` to also search Wikidata using the title with a
+trailing type suffix removed — e.g. "Olmec Civilization" → also try "Olmec".
+Without this pass, suffix stripping is disabled (safe default for datasets
+where titles don't follow the `<name> <type>` pattern).
+
+```php
+['type' => 'strip_suffixes', 'suffixes' => [
+    'Civilization', 'Kingdom', 'Empire', 'Dynasty', 'Republic', // ...
+]],
+```
+
+Each suffix is checked case-sensitively against the end of the title. Only one
+suffix is stripped per title, and it is never combined with paren-stripping on
+the same variant, to prevent over-stripping. This pass is ignored by
+`build-media.php`.
+
+### field_order
+
+Control the key order when `build-identifiers.php` rewrites a dataset file.
+Without this, newly injected keys appear at the end of each item array.
+
+```php
+['type' => 'field_order', 'fields' => [
+    'id', 'class', 'sets', 'relations', 'dcterms:identifier',
+    'dcterms:title', 'dcterms:description', 'media',
+]],
+```
+
+Keys not listed are appended after the listed ones, preserving their original
+relative order. This pass is ignored by `build-media.php`.
 
 ### commons_file_overrides
 
@@ -91,18 +191,28 @@ Hardcode a specific Commons filename for an item:
 Use when the automated passes would find the wrong image — e.g. an item whose
 title matches many unrelated Commons files.
 
+This pass is ignored by `build-identifiers.php`.
+
 ### qid_overrides
 
-Hardcode a Wikidata QID for an item:
+Hardcode a Wikidata QID for an item. The `property` key controls which script
+uses the override:
 
 ```php
+// Used by build-media.php (P18 = image property)
 ['type' => 'override', 'qid_overrides' => [
     'item-id' => 'Q123456',
 ], 'property' => 'P18'],
+
+// Used by build-identifiers.php (no property key)
+['type' => 'override', 'qid_overrides' => [
+    'item-id' => 'Q123456',
+]],
 ```
 
-Use when the entity search cannot find the right QID — e.g. the dataset title
-differs from the Wikidata label, or the search returns an ambiguous match.
+Use when automatic matching returns the wrong entity — e.g. the dataset title
+differs from the Wikidata label, or a low-QID entity with the same label
+shadows the intended one.
 
 ### skip
 
@@ -115,6 +225,8 @@ Mark items as having no available image:
 ```
 
 Skipped items are removed from the pending list and not retried.
+
+This pass is ignored by `build-identifiers.php`.
 
 ---
 
@@ -249,15 +361,22 @@ Add an entry to the `sample_data.datasets` array in `config/module.config.php`:
 
 `item_count` and `set_count` are displayed on the module admin page before import.
 
-### 4. Fetch media
+### 4. Inject identifiers
+
+```
+php dev/build-identifiers.php my-dataset --dry-run   # review matches before writing
+php dev/build-identifiers.php my-dataset             # inject dcterms:identifier values
+```
+
+### 5. Fetch media
 
 ```
 php dev/build-media.php my-dataset --dry-run   # review URLs before downloading
 php dev/build-media.php my-dataset             # download and inject media keys
 ```
 
-Create a strategy file at `dev/strategies/my-dataset.php` for any items the
-automated passes cannot match correctly (see **Strategies** above).
+Create a strategy file at `dev/strategies/my-dataset.php` for any items either
+script cannot match correctly (see **Strategies** above).
 
 ---
 

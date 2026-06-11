@@ -77,6 +77,13 @@ return [
                 ],
                 'alternate_label' => 'Related People',
             ],
+            [
+                'term' => 'dcterms:identifier',
+                'data_type' => [
+                    'uri',
+                ],
+                'alternate_label' => 'Wikidata',
+            ],
         ],
     ],
     'items' => [
@@ -90,6 +97,7 @@ return [
             'relations' => [
                 'cleopatra-vii',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q129234',
             'dcterms:title' => 'Hatshepsut',
             'dcterms:alternative' => 'Maatkare',
             'sample-data:knownFor' => 'One of ancient Egypt\'s most successful pharaohs; launched major trading expeditions and building programs including the mortuary temple at Deir el-Bahari',
@@ -122,6 +130,7 @@ return [
             'relations' => [
                 'hatshepsut',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q635',
             'dcterms:title' => 'Cleopatra VII',
             'dcterms:alternative' => [
                 'Cleopatra Philopator',
@@ -161,6 +170,7 @@ return [
             'relations' => [
                 'al-khwarizmi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q11903',
             'dcterms:title' => 'Hypatia',
             'dcterms:alternative' => 'Hypatia of Alexandria',
             'sample-data:knownFor' => 'First recorded female mathematician; head of the Platonist school at Alexandria; commentaries on Diophantus and Apollonius of Perga',
@@ -194,6 +204,7 @@ return [
                 'hatshepsut',
                 'cleopatra-vii',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9738',
             'dcterms:title' => 'Wu Zetian',
             'dcterms:alternative' => [
                 'Empress Wu',
@@ -230,6 +241,7 @@ return [
             'relations' => [
                 'christine-de-pizan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q81731',
             'dcterms:title' => 'Murasaki Shikibu',
             'dcterms:alternative' => 'Lady Murasaki',
             'sample-data:knownFor' => 'Author of The Tale of Genji, considered the world\'s first novel',
@@ -264,6 +276,7 @@ return [
                 'ibn-al-haytham',
                 'nasir-al-din-al-tusi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1031798',
             'dcterms:title' => 'Al-Khwarizmi',
             'dcterms:alternative' => [
                 'Muhammad ibn Musa al-Khwarizmi',
@@ -300,6 +313,7 @@ return [
                 'al-khwarizmi',
                 'nasir-al-din-al-tusi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q11104',
             'dcterms:title' => 'Ibn al-Haytham',
             'dcterms:alternative' => [
                 'Alhazen',
@@ -338,6 +352,7 @@ return [
                 'ibn-al-haytham',
                 'nasir-al-din-al-tusi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q110929048',
             'dcterms:title' => 'Ibn Sina',
             'dcterms:alternative' => [
                 'Avicenna',
@@ -379,6 +394,7 @@ return [
             'relations' => [
                 'christine-de-pizan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q70991',
             'dcterms:title' => 'Hildegard of Bingen',
             'dcterms:alternative' => [
                 'Saint Hildegard',
@@ -420,6 +436,7 @@ return [
                 'ibn-al-haytham',
                 'ibn-sina',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q302835',
             'dcterms:title' => 'Nasir al-Din al-Tusi',
             'dcterms:alternative' => [
                 'Al-Tusi',
@@ -459,6 +476,7 @@ return [
                 'ibn-sina',
                 'ibn-battuta',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q43347',
             'dcterms:title' => 'Rumi',
             'dcterms:alternative' => [
                 'Jalal ad-Din Muhammad Rumi',
@@ -499,6 +517,7 @@ return [
             'relations' => [
                 'mansa-musa',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q175772',
             'dcterms:title' => 'Sundiata Keita',
             'dcterms:alternative' => [
                 'Mari Djata',
@@ -536,6 +555,7 @@ return [
                 'murasaki-shikibu',
                 'sor-juana',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q234816',
             'dcterms:title' => 'Christine de Pizan',
             'dcterms:alternative' => 'Christine de Pisan',
             'sample-data:knownFor' => 'The Book of the City of Ladies — allegorical defense of women\'s virtue and capability; first professional woman writer in European literature',
@@ -569,6 +589,7 @@ return [
                 'zheng-he',
                 'rumi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7331',
             'dcterms:title' => 'Ibn Battuta',
             'dcterms:alternative' => [
                 'Abu Abdallah Muhammad ibn Battuta',
@@ -605,6 +626,7 @@ return [
                 'sundiata-keita',
                 'ibn-battuta',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q309333',
             'dcterms:title' => 'Mansa Musa',
             'dcterms:alternative' => [
                 'Musa I of Mali',
@@ -640,6 +662,7 @@ return [
             'relations' => [
                 'ibn-battuta',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7333',
             'dcterms:title' => 'Zheng He',
             'dcterms:alternative' => [
                 'Ma He',
@@ -679,6 +702,7 @@ return [
             'relations' => [
                 'sundiata-keita',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q51722101',
             'dcterms:title' => 'Pachacuti',
             'dcterms:alternative' => [
                 'Pachacutec',
@@ -716,6 +740,7 @@ return [
                 'hatshepsut',
                 'wu-zetian',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q467650',
             'dcterms:title' => 'Queen Nzinga',
             'dcterms:alternative' => [
                 'Ana de Sousa Nzinga Mbande',
@@ -756,6 +781,7 @@ return [
                 'nasir-al-din-al-tusi',
                 'galileo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q619',
             'dcterms:title' => 'Nicolaus Copernicus',
             'dcterms:alternative' => [
                 'Mikołaj Kopernik',
@@ -795,6 +821,7 @@ return [
                 'christine-de-pizan',
                 'mary-wollstonecraft',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q183074',
             'dcterms:title' => 'Sor Juana Inés de la Cruz',
             'dcterms:alternative' => [
                 'Juana Ramírez de Asbaje',
@@ -836,6 +863,7 @@ return [
                 'copernicus',
                 'isaac-newton',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q307',
             'dcterms:title' => 'Galileo Galilei',
             'dcterms:alternative' => [
                 'Galileo',
@@ -877,6 +905,7 @@ return [
                 'galileo',
                 'ada-lovelace',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q935',
             'dcterms:title' => 'Isaac Newton',
             'dcterms:alternative' => [
                 'Sir Isaac Newton',
@@ -914,6 +943,7 @@ return [
                 'christine-de-pizan',
                 'ada-lovelace',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q101638',
             'dcterms:title' => 'Mary Wollstonecraft',
             'dcterms:alternative' => 'Mary Godwin',
             'sample-data:knownFor' => 'A Vindication of the Rights of Woman (1792) — foundational text of feminist political philosophy',
@@ -948,6 +978,7 @@ return [
                 'mary-wollstonecraft',
                 'charles-darwin',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7259',
             'dcterms:title' => 'Ada Lovelace',
             'dcterms:alternative' => [
                 'Augusta Ada King, Countess of Lovelace',
@@ -983,6 +1014,7 @@ return [
                 'ada-lovelace',
                 'frederick-douglass',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1035',
             'dcterms:title' => 'Charles Darwin',
             'dcterms:alternative' => [
                 'Charles Robert Darwin',
@@ -1019,6 +1051,7 @@ return [
                 'harriet-tubman',
                 'charles-darwin',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q215562',
             'dcterms:title' => 'Frederick Douglass',
             'dcterms:alternative' => [
                 'Frederick Augustus Washington Bailey',
@@ -1055,6 +1088,7 @@ return [
                 'frederick-douglass',
                 'sojourner-truth',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q102870',
             'dcterms:title' => 'Harriet Tubman',
             'dcterms:alternative' => [
                 'Araminta Ross',
@@ -1090,6 +1124,7 @@ return [
             'relations' => [
                 'sappho',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q232505',
             'dcterms:title' => 'Enheduanna',
             'dcterms:alternative' => 'En-hedu-ana',
             'sample-data:knownFor' => 'First named author in recorded history; composer of hymns to the moon god Nanna and the goddess Inanna',
@@ -1123,6 +1158,7 @@ return [
                 'enheduanna',
                 'christine-de-pizan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q17892',
             'dcterms:title' => 'Sappho',
             'dcterms:alternative' => [
                 'Psappha',
@@ -1159,6 +1195,7 @@ return [
                 'ashoka',
                 'zhang-heng',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q4604',
             'dcterms:title' => 'Confucius',
             'dcterms:alternative' => [
                 'Kong Qiu',
@@ -1197,6 +1234,7 @@ return [
                 'zhang-heng',
                 'al-khwarizmi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8739',
             'dcterms:title' => 'Archimedes',
             'dcterms:alternative' => 'Archimedes of Syracuse',
             'sample-data:knownFor' => 'Principle of buoyancy; methods anticipating integral calculus; design of war machines defending Syracuse against Rome',
@@ -1230,6 +1268,7 @@ return [
                 'confucius',
                 'sundiata-keita',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8589',
             'dcterms:title' => 'Ashoka',
             'dcterms:alternative' => [
                 'Ashoka the Great',
@@ -1273,6 +1312,7 @@ return [
                 'confucius',
                 'ibn-al-haytham',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q197206',
             'dcterms:title' => 'Zhang Heng',
             'dcterms:alternative' => [
                 'Chang Heng',
@@ -1310,6 +1350,7 @@ return [
                 'cleopatra-vii',
                 'queen-nzinga',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q189687',
             'dcterms:title' => 'Zenobia',
             'dcterms:alternative' => [
                 'Septimia Zenobia',
@@ -1353,6 +1394,7 @@ return [
                 'zenobia',
                 'queen-nzinga',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q44978',
             'dcterms:title' => 'Theodora',
             'dcterms:alternative' => 'Empress Theodora',
             'sample-data:knownFor' => 'Byzantine empress who co-ruled with Justinian I; her intervention during the Nika riots saved the Empire; champion of women\'s legal rights',
@@ -1387,6 +1429,7 @@ return [
                 'al-khwarizmi',
                 'hildegard-of-bingen',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q182363',
             'dcterms:title' => 'Fatima al-Fihri',
             'dcterms:alternative' => [
                 'Fatima bint Muhammad al-Fihri',
@@ -1424,6 +1467,7 @@ return [
                 'theodora',
                 'queen-nzinga',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q465076',
             'dcterms:title' => 'Razia Sultana',
             'dcterms:alternative' => [
                 'Razia al-Din',
@@ -1464,6 +1508,7 @@ return [
                 'rumi',
                 'sor-juana',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q113809924',
             'dcterms:title' => 'Mirabai',
             'dcterms:alternative' => [
                 'Meera',
@@ -1506,6 +1551,7 @@ return [
                 'akbar',
                 'mansa-musa',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8474',
             'dcterms:title' => 'Suleiman the Magnificent',
             'dcterms:alternative' => [
                 'Suleiman I',
@@ -1548,6 +1594,7 @@ return [
                 'suleiman-the-magnificent',
                 'mirabai',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8597',
             'dcterms:title' => 'Akbar',
             'dcterms:alternative' => [
                 'Akbar the Great',
@@ -1589,6 +1636,7 @@ return [
             'relations' => [
                 'zheng-he',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q50184',
             'dcterms:title' => 'Yi Sun-sin',
             'dcterms:alternative' => [
                 'Admiral Yi',
@@ -1626,6 +1674,7 @@ return [
                 'harriet-tubman',
                 'tecumseh',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q205783',
             'dcterms:title' => 'Toussaint Louverture',
             'dcterms:alternative' => [
                 'François-Dominique Toussaint Louverture',
@@ -1666,6 +1715,7 @@ return [
                 'toussaint-louverture',
                 'pachacuti',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q257808',
             'dcterms:title' => 'Tecumseh',
             'dcterms:alternative' => [
                 'Tecumtha',
@@ -1706,6 +1756,7 @@ return [
                 'frederick-douglass',
                 'mary-wollstonecraft',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q105180',
             'dcterms:title' => 'Sojourner Truth',
             'dcterms:alternative' => [
                 'Isabella Baumfree',
@@ -1745,6 +1796,7 @@ return [
                 'queen-nzinga',
                 'harriet-tubman',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q467803',
             'dcterms:title' => 'Yaa Asantewaa',
             'dcterms:alternative' => [
                 'Yaa Asantewaah',
@@ -1781,6 +1833,7 @@ return [
                 'ada-lovelace',
                 'marie-curie',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9036',
             'dcterms:title' => 'Nikola Tesla',
             'dcterms:alternative' => [
                 'Никола Тесла',
@@ -1823,6 +1876,7 @@ return [
                 'sojourner-truth',
                 'web-du-bois',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q289428',
             'dcterms:title' => 'Ida B. Wells',
             'dcterms:alternative' => [
                 'Ida Bell Wells-Barnett',
@@ -1860,6 +1914,7 @@ return [
                 'nikola-tesla',
                 'srinivasa-ramanujan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6762812',
             'dcterms:title' => 'Marie Curie',
             'dcterms:alternative' => [
                 'Maria Skłodowska-Curie',
@@ -1902,6 +1957,7 @@ return [
                 'frederick-douglass',
                 'ida-b-wells',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q158060',
             'dcterms:title' => 'W. E. B. Du Bois',
             'dcterms:alternative' => [
                 'William Edward Burghardt Du Bois',
@@ -1938,6 +1994,7 @@ return [
                 'isaac-newton',
                 'marie-curie',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q83163',
             'dcterms:title' => 'Srinivasa Ramanujan',
             'dcterms:alternative' => [
                 'Srinivasa Ramanujan Aiyangar',
@@ -1975,6 +2032,7 @@ return [
                 'sappho',
                 'hypatia',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q228564',
             'dcterms:title' => 'Aspasia',
             'dcterms:alternative' => 'Aspasia of Miletus',
             'sample-data:knownFor' => 'Influential philosopher and rhetorician in Classical Athens; companion of Pericles; her salon attracted Socrates, Plato, and the leading minds of the age',
@@ -2008,6 +2066,7 @@ return [
                 'ashoka',
                 'ibn-sina',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3347300',
             'dcterms:title' => 'Nāgārjuna',
             'dcterms:alternative' => [
                 'Nagarjuna',
@@ -2044,6 +2103,7 @@ return [
                 'archimedes',
                 'ashoka',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q36456',
             'dcterms:title' => 'Hannibal Barca',
             'dcterms:alternative' => [
                 'Hannibal',
@@ -2083,6 +2143,7 @@ return [
                 'zenobia',
                 'trung-trac',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q71352061',
             'dcterms:title' => 'Boudicca',
             'dcterms:alternative' => [
                 'Boudica',
@@ -2120,6 +2181,7 @@ return [
                 'yi-sun-sin',
                 'queen-nzinga',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q10828670',
             'dcterms:title' => 'Trưng Trắc',
             'dcterms:alternative' => [
                 'Trung Trac',
@@ -2159,6 +2221,7 @@ return [
                 'nasir-al-din-al-tusi',
                 'rumi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1815018',
             'dcterms:title' => 'Omar Khayyam',
             'dcterms:alternative' => [
                 'Ghiyāth ad-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm Khayyām Nīshāpūrī',
@@ -2198,6 +2261,7 @@ return [
                 'ibn-battuta',
                 'nasir-al-din-al-tusi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q101914845',
             'dcterms:title' => 'Al-Idrisi',
             'dcterms:alternative' => [
                 'Muhammad al-Idrisi',
@@ -2235,6 +2299,7 @@ return [
                 'ibn-battuta',
                 'al-idrisi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9294',
             'dcterms:title' => 'Ibn Khaldun',
             'dcterms:alternative' => [
                 'Abd ar-Rahman ibn Khaldun',
@@ -2272,6 +2337,7 @@ return [
                 'sundiata-keita',
                 'mansa-musa',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q383455',
             'dcterms:title' => 'Afonso I of Kongo',
             'dcterms:alternative' => [
                 'Nzinga a Ntinu Wene',
@@ -2313,6 +2379,7 @@ return [
                 'afonso-i-kongo',
                 'sor-juana',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q5651653',
             'dcterms:title' => 'Bartolomé de las Casas',
             'dcterms:alternative' => [
                 'Fray Bartolomé de las Casas',
@@ -2350,6 +2417,7 @@ return [
                 'suleiman-the-magnificent',
                 'sor-juana',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q365749',
             'dcterms:title' => 'Elizabeth I',
             'dcterms:alternative' => [
                 'Good Queen Bess',
@@ -2393,6 +2461,7 @@ return [
                 'galileo',
                 'isaac-newton',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8963',
             'dcterms:title' => 'Johannes Kepler',
             'dcterms:alternative' => [
                 'Johann Kepler',
@@ -2431,6 +2500,7 @@ return [
                 'zheng-he',
                 'queen-nzinga',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q266715',
             'dcterms:title' => 'Ching Shih',
             'dcterms:alternative' => [
                 'Zheng Yi Sao',
@@ -2469,6 +2539,7 @@ return [
                 'frederick-douglass',
                 'toussaint-louverture',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q379887',
             'dcterms:title' => 'Olaudah Equiano',
             'dcterms:alternative' => [
                 'Gustavus Vassa',
@@ -2506,6 +2577,7 @@ return [
                 'toussaint-louverture',
                 'tecumseh',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q8605',
             'dcterms:title' => 'Simón Bolívar',
             'dcterms:alternative' => [
                 'El Libertador',
@@ -2542,6 +2614,7 @@ return [
                 'tecumseh',
                 'ibn-battuta',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q238960',
             'dcterms:title' => 'Sacagawea',
             'dcterms:alternative' => [
                 'Sakakawea',
@@ -2582,6 +2655,7 @@ return [
                 'wu-zetian',
                 'ching-shih',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q47842',
             'dcterms:title' => 'Empress Dowager Cixi',
             'dcterms:alternative' => [
                 'Tzu Hsi',
@@ -2622,6 +2696,7 @@ return [
                 'harriet-tubman',
                 'yaa-asantewaa',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q963703',
             'dcterms:title' => 'Mary Seacole',
             'dcterms:alternative' => [
                 'Mary Jane Seacole',
@@ -2658,6 +2733,7 @@ return [
                 'queen-nzinga',
                 'yaa-asantewaa',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q130234684',
             'dcterms:title' => 'Lakshmibai',
             'dcterms:alternative' => [
                 'Rani of Jhansi',
@@ -2698,6 +2774,7 @@ return [
                 'mahatma-gandhi',
                 'srinivasa-ramanujan',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7241',
             'dcterms:title' => 'Rabindranath Tagore',
             'dcterms:alternative' => [
                 'Gurudev',
@@ -2738,6 +2815,7 @@ return [
                 'marie-curie',
                 'emmy-noether',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q56189',
             'dcterms:title' => 'Lise Meitner',
             'dcterms:alternative' => [
                 'Elise Meitner',
@@ -2777,6 +2855,7 @@ return [
                 'lise-meitner',
                 'ada-lovelace',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7099',
             'dcterms:title' => 'Emmy Noether',
             'dcterms:alternative' => [
                 'Amalie Emmy Noether',
@@ -2816,6 +2895,7 @@ return [
                 'rabindranath-tagore',
                 'toussaint-louverture',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q1001',
             'dcterms:title' => 'Mahatma Gandhi',
             'dcterms:alternative' => [
                 'Mohandas Karamchand Gandhi',
@@ -2858,6 +2938,7 @@ return [
                 'ada-lovelace',
                 'emmy-noether',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7251',
             'dcterms:title' => 'Alan Turing',
             'dcterms:alternative' => [
                 'Alan Mathison Turing',
@@ -2897,6 +2978,7 @@ return [
                 'enheduanna',
                 'archimedes',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q131171',
             'dcterms:title' => 'Imhotep',
             'dcterms:alternative' => [
                 'Ii-em-Hotep',
@@ -2933,6 +3015,7 @@ return [
                 'enheduanna',
                 'hatshepsut',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q199461',
             'dcterms:title' => 'Sargon of Akkad',
             'dcterms:alternative' => [
                 'Sargon I',
@@ -2973,6 +3056,7 @@ return [
                 'wu-zetian',
                 'murasaki-shikibu',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q234451',
             'dcterms:title' => 'Himiko',
             'dcterms:alternative' => [
                 'Pimiko',
@@ -3009,6 +3093,7 @@ return [
                 'murasaki-shikibu',
                 'rumi',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7071',
             'dcterms:title' => 'Li Bai',
             'dcterms:alternative' => [
                 'Li Po',
@@ -3048,6 +3133,7 @@ return [
                 'maimonides',
                 'nagarjuna',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q39837',
             'dcterms:title' => 'Averroes',
             'dcterms:alternative' => [
                 'Ibn Rushd',
@@ -3087,6 +3173,7 @@ return [
                 'averroes',
                 'ibn-sina',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3303399',
             'dcterms:title' => 'Maimonides',
             'dcterms:alternative' => [
                 'Moses Maimonides',
@@ -3129,6 +3216,7 @@ return [
                 'zenobia',
                 'elizabeth-i',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q244007',
             'dcterms:title' => 'Tamar of Georgia',
             'dcterms:alternative' => [
                 'Queen Tamar',
@@ -3168,6 +3256,7 @@ return [
                 'wu-zetian',
                 'ching-shih',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q6403237',
             'dcterms:title' => 'Khutulun',
             'dcterms:alternative' => [
                 'Aiyurug',
@@ -3205,6 +3294,7 @@ return [
                 'yaa-asantewaa',
                 'queen-nzinga',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q2843390',
             'dcterms:title' => 'Amina of Zaria',
             'dcterms:alternative' => [
                 'Queen Amina',
@@ -3241,6 +3331,7 @@ return [
                 'yi-sun-sin',
                 'akbar',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q171977',
             'dcterms:title' => 'Tokugawa Ieyasu',
             'dcterms:alternative' => [
                 'Matsudaira Motoyasu',
@@ -3277,6 +3368,7 @@ return [
                 'mary-wollstonecraft',
                 'voltaire',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9353',
             'dcterms:title' => 'John Locke',
             'dcterms:alternative' => [
                 'Father of Liberalism',
@@ -3315,6 +3407,7 @@ return [
                 'isaac-newton',
                 'emmy-noether',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9047',
             'dcterms:title' => 'Gottfried Wilhelm Leibniz',
             'dcterms:alternative' => [
                 'Leibniz',
@@ -3356,6 +3449,7 @@ return [
                 'harriet-tubman',
                 'toussaint-louverture',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q274041',
             'dcterms:title' => 'Nanny of the Maroons',
             'dcterms:alternative' => [
                 'Queen Nanny',
@@ -3396,6 +3490,7 @@ return [
                 'john-locke',
                 'mary-wollstonecraft',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9068',
             'dcterms:title' => 'Voltaire',
             'dcterms:alternative' => [
                 'François-Marie Arouet',
@@ -3432,6 +3527,7 @@ return [
                 'murasaki-shikibu',
                 'sor-juana',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q182874',
             'dcterms:title' => 'Cao Xueqin',
             'dcterms:alternative' => [
                 'Ts\'ao Hsueh-ch\'in',
@@ -3469,6 +3565,7 @@ return [
                 'zheng-he',
                 'sacagawea',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q214910',
             'dcterms:title' => 'Kamehameha I',
             'dcterms:alternative' => [
                 'Kamehameha the Great',
@@ -3505,6 +3602,7 @@ return [
                 'tecumseh',
                 'sacagawea',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q313595',
             'dcterms:title' => 'Sequoyah',
             'dcterms:alternative' => [
                 'George Gist',
@@ -3545,6 +3643,7 @@ return [
                 'yaa-asantewaa',
                 'queen-nzinga',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q451624',
             'dcterms:title' => 'Shaka',
             'dcterms:alternative' => [
                 'Shaka Zulu',
@@ -3581,6 +3680,7 @@ return [
                 'mary-wollstonecraft',
                 'ada-lovelace',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q47152',
             'dcterms:title' => 'Mary Shelley',
             'dcterms:alternative' => [
                 'Mary Wollstonecraft Shelley',
@@ -3617,6 +3717,7 @@ return [
                 'charles-darwin',
                 'galileo',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q230491',
             'dcterms:title' => 'Mary Anning',
             'dcterms:alternative' => [
                 'The Greatest Fossilist the World Ever Knew',
@@ -3652,6 +3753,7 @@ return [
                 'mary-wollstonecraft',
                 'ida-b-wells',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q131333',
             'dcterms:title' => 'George Eliot',
             'dcterms:alternative' => [
                 'Mary Ann Evans',
@@ -3688,6 +3790,7 @@ return [
                 'mary-seacole',
                 'marie-curie',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q37103',
             'dcterms:title' => 'Florence Nightingale',
             'dcterms:alternative' => [
                 'The Lady with the Lamp',
@@ -3728,6 +3831,7 @@ return [
                 'tecumseh',
                 'sacagawea',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q43527',
             'dcterms:title' => 'Sitting Bull',
             'dcterms:alternative' => [
                 'Tȟatȟáŋka Íyotȟake',
@@ -3765,6 +3869,7 @@ return [
                 'nikola-tesla',
                 'emmy-noether',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q9095',
             'dcterms:title' => 'James Clerk Maxwell',
             'dcterms:alternative' => [
                 'Maxwell',
@@ -3801,6 +3906,7 @@ return [
                 'nasir-al-din-al-tusi',
                 'emmy-noether',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q3138460',
             'dcterms:title' => 'Wang Zhenyi',
             'dcterms:alternative' => [
                 'Wang Chen-i',
@@ -3837,6 +3943,7 @@ return [
                 'lise-meitner',
                 'marie-curie',
             ],
+            'dcterms:identifier' => 'https://www.wikidata.org/entity/Q7474',
             'dcterms:title' => 'Rosalind Franklin',
             'dcterms:alternative' => [
                 'Rosalind Elsie Franklin',
